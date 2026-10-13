@@ -553,7 +553,7 @@ export default function RespirationModel({
         const branch =
           (path.from !== "I" && path.from !== "II") ||
           path.from === (s.entry === "NADH" ? "I" : "II");
-        m.visible = active && status.flow > 0.2 && branch && !close;
+        m.visible = active && status.flow > 0 && branch && !close;
         m.position.copy(
           path.c.getPoint((time * 0.25 * status.flow + phase) % 1),
         );
@@ -562,7 +562,7 @@ export default function RespirationModel({
       pumps.forEach(({ m, id, phase }) => {
         m.visible =
           pump &&
-          status.flow > 0.2 &&
+          status.flow > 0 &&
           (id !== "I" || s.entry === "NADH") &&
           !close;
         const t = (time * 0.4 * status.flow + phase) % 1;
@@ -577,7 +577,7 @@ export default function RespirationModel({
         );
       });
       returns.forEach(({ m, phase }) => {
-        m.visible = synth && status.synthesis > 0.1;
+        m.visible = synth && status.synthesis > 0;
         const t = (time * 0.36 * status.synthesis + phase) % 1;
         m.position.set(
           10.2 + 0.17 * Math.sin(t * Math.PI * 3),
@@ -591,8 +591,8 @@ export default function RespirationModel({
         m.position.set(7 + Math.sin(t * 7) * 0.18, 3 - t * 5, 1);
       });
       atps.forEach(({ m, phase }) => {
-        const t = (time * 0.3 + phase) % 1;
-        m.visible = synth && status.synthesis > 0.1;
+        const t = (time * 0.3 * status.synthesis + phase) % 1;
+        m.visible = synth && status.synthesis > 0;
         m.position.set(10.8 + t * 2.2, -2.6 - t * 0.6, 1.4);
         m.scale.setScalar(0.16 * (1 - t * 0.45));
       });
