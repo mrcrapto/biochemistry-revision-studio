@@ -1,0 +1,3117 @@
+[
+  {
+    "id": "amino-01",
+    "chapter": "amino",
+    "topic": "Structure",
+    "difficulty": "Recall",
+    "stem": "Which feature distinguishes one common α-amino acid from another?",
+    "options": [
+      "Its R side chain",
+      "The α-carbon itself",
+      "The common amino group",
+      "The common carboxyl group"
+    ],
+    "answer": 0,
+    "explanation": "The R group determines identity and many chemical properties. The α-carbon, amino group and carboxyl group form the shared backbone.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 3
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-02",
+    "chapter": "amino",
+    "topic": "Chirality",
+    "difficulty": "Recall",
+    "stem": "Which standard amino acid lacks a chiral α-carbon?",
+    "options": ["Alanine", "Valine", "Serine", "Glycine"],
+    "answer": 3,
+    "explanation": "Glycine has two hydrogen substituents on its α-carbon. Alanine, valine and serine each have four different substituents and are chiral.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 4
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-03",
+    "chapter": "amino",
+    "topic": "Stereochemistry",
+    "difficulty": "Recall",
+    "stem": "Which stereochemical series predominates among amino-acid residues in human ribosomal proteins?",
+    "options": [
+      "D-amino acids",
+      "An equal D/L mixture",
+      "L-amino acids",
+      "Only achiral amino acids"
+    ],
+    "answer": 2,
+    "explanation": "Ribosomal proteins predominantly contain L-amino acids. D-amino acids do not generally form these proteins; glycine is achiral, but it is not the only protein amino acid.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-04",
+    "chapter": "amino",
+    "topic": "Peptide bonds",
+    "difficulty": "Recall",
+    "stem": "A peptide bond joins which groups of adjacent amino acids?",
+    "options": [
+      "Two R groups",
+      "A carboxyl group and an amino group",
+      "Two amino groups",
+      "Two carboxyl groups"
+    ],
+    "answer": 1,
+    "explanation": "The peptide linkage is an amide formed between a carboxyl carbon and an amino nitrogen. Side-chain coupling, amino–amino and carboxyl–carboxyl coupling do not define the backbone peptide bond.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 14
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-05",
+    "chapter": "amino",
+    "topic": "Protein structure",
+    "difficulty": "Recall",
+    "stem": "Which level of protein structure is the amino-acid sequence?",
+    "options": ["Primary", "Secondary", "Tertiary", "Quaternary"],
+    "answer": 0,
+    "explanation": "Primary structure is the covalent sequence. Secondary describes local helices or sheets, tertiary the fold of one chain, and quaternary the arrangement of multiple subunits.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 18
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-06",
+    "chapter": "amino",
+    "topic": "Acid-base chemistry",
+    "difficulty": "Mechanism",
+    "stem": "Why can an amino acid act as both an acid and a base?",
+    "options": [
+      "Its R group always contains sulfur",
+      "It contains only nonpolar bonds",
+      "Its peptide bonds must be hydrolysed first",
+      "It has groups that can donate and accept protons"
+    ],
+    "answer": 3,
+    "explanation": "Ionizable amino and carboxyl groups permit proton acceptance and donation. Sulfur is absent from many amino acids, nonpolarity does not explain buffering, and free amino acids need no peptide hydrolysis.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-07",
+    "chapter": "amino",
+    "topic": "Isoelectric point",
+    "difficulty": "Mechanism",
+    "stem": "At the isoelectric pH, what is the average net charge of an amino acid?",
+    "options": [
+      "Always +1",
+      "Always −1",
+      "Zero",
+      "Equal to its molecular mass"
+    ],
+    "answer": 2,
+    "explanation": "The positive and negative charges balance at pI. Zero net charge does not mean every group is uncharged; neither a fixed positive/negative charge nor molecular mass defines pI.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-08",
+    "chapter": "amino",
+    "topic": "Electrophoresis",
+    "difficulty": "Application",
+    "stem": "An amino acid is placed at a pH below its pI. What net charge is expected?",
+    "options": [
+      "Negative",
+      "Positive",
+      "Exactly zero at every pH",
+      "Impossible because amino acids cannot ionize"
+    ],
+    "answer": 1,
+    "explanation": "Below pI the molecule is relatively protonated and net positive. Above pI it tends to be negative; zero net charge occurs at pI, and ionization is central to this behaviour.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-09",
+    "chapter": "amino",
+    "topic": "Secondary structure",
+    "difficulty": "Mechanism",
+    "stem": "What chiefly stabilizes an α-helix in a protein?",
+    "options": [
+      "Hydrogen bonds between backbone groups",
+      "Peptide bonds between separate subunits",
+      "Disulfide bonds at every turn",
+      "Covalent bonds between all side chains"
+    ],
+    "answer": 0,
+    "explanation": "Backbone carbonyl and N–H groups form the repeating hydrogen-bond pattern. Peptide bonds define the chain, while universal disulfide or side-chain covalent crosslinks are not required.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 19
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-10",
+    "chapter": "amino",
+    "topic": "Tertiary structure",
+    "difficulty": "Mechanism",
+    "stem": "Which interaction can provide a covalent link within a folded protein?",
+    "options": [
+      "A hydrophobic interaction",
+      "An ionic interaction",
+      "A hydrogen bond",
+      "A disulfide bond between cysteine residues"
+    ],
+    "answer": 3,
+    "explanation": "A disulfide is a covalent S–S linkage. Hydrophobic, ionic and hydrogen-bond interactions are noncovalent contributors to folding.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 23
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-11",
+    "chapter": "amino",
+    "topic": "Quaternary structure",
+    "difficulty": "Application",
+    "stem": "A functional protein contains four folded polypeptide chains. Which structural level describes their assembly?",
+    "options": [
+      "Primary only",
+      "Secondary only",
+      "Quaternary",
+      "An amino-acid zwitterion"
+    ],
+    "answer": 2,
+    "explanation": "Quaternary structure describes interactions among subunits. Primary and secondary refer to sequence and local chain folding; zwitterions describe charge, not subunit assembly.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 24
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-12",
+    "chapter": "amino",
+    "topic": "Helix breakers",
+    "difficulty": "Mechanism",
+    "stem": "Why can proline disrupt a typical α-helix?",
+    "options": [
+      "It has no nitrogen atom",
+      "Its rigid ring constrains the backbone and its peptide nitrogen lacks a hydrogen donor",
+      "It breaks all peptide bonds spontaneously",
+      "Its side chain is always negatively charged"
+    ],
+    "answer": 1,
+    "explanation": "Proline restricts backbone geometry and lacks a backbone N–H donor when internal in a chain. It contains nitrogen, does not spontaneously hydrolyse the backbone, and is not inherently an acidic side chain.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-13",
+    "chapter": "amino",
+    "topic": "Protein quality control",
+    "difficulty": "Application",
+    "stem": "A newly synthesized protein is misfolded. Which proteins can help it reach a functional conformation?",
+    "options": [
+      "Molecular chaperones",
+      "Glycogen phosphorylases",
+      "Bilirubin transporters",
+      "DNA helicases"
+    ],
+    "answer": 0,
+    "explanation": "Chaperones assist folding and limit aggregation. Glycogen phosphorylase mobilizes glycogen, bilirubin transporters handle pigment transport, and helicases unwind nucleic acids.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 26
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-14",
+    "chapter": "amino",
+    "topic": "Denaturation",
+    "difficulty": "Application",
+    "stem": "Heating a protein abolishes its function without hydrolysing its backbone. Which feature is usually retained?",
+    "options": [
+      "Its native tertiary fold",
+      "Its normal catalytic pocket",
+      "Its native subunit arrangement in every case",
+      "Its primary amino-acid sequence"
+    ],
+    "answer": 3,
+    "explanation": "Denaturation disrupts higher-order structure while ordinarily preserving peptide-bond sequence. The native fold, catalytic geometry and sometimes subunit assembly can be lost.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 28
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "amino-15",
+    "chapter": "amino",
+    "topic": "Misfolding disease",
+    "difficulty": "Application",
+    "stem": "Which protein is associated with the amyloid deposits described in Alzheimer disease?",
+    "options": ["Prion protein alone", "CFTR", "Amyloid-β", "α-Synuclein"],
+    "answer": 2,
+    "explanation": "Amyloid-β is linked to Alzheimer amyloid plaques. Prion protein is associated with prion diseases, CFTR with cystic fibrosis, and α-synuclein with Parkinson disease.",
+    "source": {
+      "file": "Amino acids and proteins.pdf",
+      "page": 27
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-01",
+    "chapter": "carbohydrates",
+    "topic": "Monosaccharides",
+    "difficulty": "Recall",
+    "stem": "Which sugar is a pentose?",
+    "options": ["Glucose", "Galactose", "Fructose", "Ribose"],
+    "answer": 3,
+    "explanation": "Ribose has five carbons. Glucose, galactose and fructose are six-carbon sugars.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-02",
+    "chapter": "carbohydrates",
+    "topic": "Aldoses and ketoses",
+    "difficulty": "Recall",
+    "stem": "Which common monosaccharide is a ketohexose?",
+    "options": ["Glucose", "Galactose", "Fructose", "Mannose"],
+    "answer": 2,
+    "explanation": "Fructose has a ketone carbonyl in its open-chain form. Glucose, galactose and mannose are aldohexoses.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 12
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-03",
+    "chapter": "carbohydrates",
+    "topic": "Epimers",
+    "difficulty": "Recall",
+    "stem": "Glucose and galactose differ in configuration at which carbon?",
+    "options": ["C1", "C4", "C2", "C6"],
+    "answer": 1,
+    "explanation": "They are C4 epimers. C1 distinguishes glucose anomers; glucose and mannose differ at C2, while C6 is not their epimeric centre.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-04",
+    "chapter": "carbohydrates",
+    "topic": "Disaccharides",
+    "difficulty": "Recall",
+    "stem": "Which pair of monosaccharides forms lactose?",
+    "options": [
+      "Glucose and galactose",
+      "Glucose and fructose",
+      "Two glucose residues",
+      "Two fructose residues"
+    ],
+    "answer": 0,
+    "explanation": "Lactose contains galactose and glucose. Sucrose contains glucose and fructose; maltose contains two glucoses, and two fructoses do not form lactose.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 17
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-05",
+    "chapter": "carbohydrates",
+    "topic": "Glycosaminoglycans",
+    "difficulty": "Recall",
+    "stem": "Which glycosaminoglycan is not sulfated?",
+    "options": [
+      "Heparin",
+      "Chondroitin sulfate",
+      "Keratan sulfate",
+      "Hyaluronan"
+    ],
+    "answer": 3,
+    "explanation": "Hyaluronan is nonsulfated. The other three listed glycosaminoglycans contain sulfate groups.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 33
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-06",
+    "chapter": "carbohydrates",
+    "topic": "Anomers",
+    "difficulty": "Mechanism",
+    "stem": "What distinguishes α-D-glucose from β-D-glucose?",
+    "options": [
+      "A different number of carbons",
+      "A different molecular formula",
+      "Configuration at the anomeric carbon",
+      "Replacement of oxygen by nitrogen"
+    ],
+    "answer": 2,
+    "explanation": "Anomers differ at the stereocentre created by ring closure, C1 in glucose. Carbon number, molecular formula and elemental composition remain unchanged.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-07",
+    "chapter": "carbohydrates",
+    "topic": "D/L configuration",
+    "difficulty": "Mechanism",
+    "stem": "In a Fischer projection, what determines whether a monosaccharide is D or L?",
+    "options": [
+      "Whether optical rotation is clockwise",
+      "Configuration at the chiral carbon farthest from the carbonyl",
+      "The number of hydroxyl groups",
+      "Whether the sugar is sweet"
+    ],
+    "answer": 1,
+    "explanation": "D/L denotes configuration relative to glyceraldehyde at the reference stereocentre. It does not specify the sign of optical rotation, hydroxyl count or sweetness.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 10
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-08",
+    "chapter": "carbohydrates",
+    "topic": "Reducing sugars",
+    "difficulty": "Mechanism",
+    "stem": "Why is sucrose a nonreducing disaccharide?",
+    "options": [
+      "Both anomeric carbons participate in its glycosidic bond",
+      "It contains no oxygen",
+      "It cannot be hydrolysed",
+      "It contains only glucose"
+    ],
+    "answer": 0,
+    "explanation": "Both anomeric centres are locked in the linkage, so neither is a free reducing end. Sucrose contains oxygen, can be hydrolysed, and contains glucose plus fructose.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 17
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-09",
+    "chapter": "carbohydrates",
+    "topic": "Glycosidic bonds",
+    "difficulty": "Mechanism",
+    "stem": "What is released when two monosaccharides form a glycosidic bond in a condensation reaction?",
+    "options": ["Carbon dioxide", "Ammonia", "Molecular oxygen", "Water"],
+    "answer": 3,
+    "explanation": "Condensation removes water as the glycosidic bond forms. CO₂ release, deamination and oxygen generation are different reactions.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 18
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-10",
+    "chapter": "carbohydrates",
+    "topic": "Extracellular matrix",
+    "difficulty": "Mechanism",
+    "stem": "Why do glycosaminoglycans retain water in the extracellular matrix?",
+    "options": [
+      "Their uncharged hydrocarbon regions exclude ions",
+      "They form permanent covalent bonds to water",
+      "Their negatively charged groups attract counterions and water",
+      "Their glycosidic bonds actively pump water into the matrix"
+    ],
+    "answer": 2,
+    "explanation": "Carboxylate and sulfate groups give GAGs high charge density and hydration. Nonpolar regions do not explain this attraction; hydration is noncovalent and glycosidic bonds are not water pumps.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 29
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-11",
+    "chapter": "carbohydrates",
+    "topic": "Sugar alcohols",
+    "difficulty": "Application",
+    "stem": "Excess glucose is converted to which sugar alcohol implicated in osmotic lens injury in diabetes?",
+    "options": [
+      "Mannitol from glucose directly",
+      "Sorbitol",
+      "Galactitol from glucose directly",
+      "Ribitol from glucose directly"
+    ],
+    "answer": 1,
+    "explanation": "Aldose reductase reduces glucose to sorbitol. Mannitol, galactitol and ribitol are different sugar alcohols; galactitol is formed from galactose.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 16
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-12",
+    "chapter": "carbohydrates",
+    "topic": "Storage polysaccharides",
+    "difficulty": "Application",
+    "stem": "A human tissue needs a compact, rapidly mobilizable glucose reserve. Which polymer fits this role?",
+    "options": ["Glycogen", "Cellulose", "Inulin", "Hyaluronan"],
+    "answer": 0,
+    "explanation": "Glycogen is the branched glucose reserve of animals. Cellulose is structural plant carbohydrate, inulin is a fructose polymer, and hyaluronan is an extracellular-matrix GAG.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 23
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-13",
+    "chapter": "carbohydrates",
+    "topic": "Inulin",
+    "difficulty": "Application",
+    "stem": "A filtration experiment uses a fructose polymer that is filtered but not normally reabsorbed or secreted. Which substance is used?",
+    "options": ["Glycogen", "Dextran", "Lactose", "Inulin"],
+    "answer": 3,
+    "explanation": "Inulin clearance can assess glomerular filtration. Glycogen is a storage polymer, dextran is a glucose polymer, and lactose is a disaccharide rather than the standard filtration marker.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 23
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-14",
+    "chapter": "carbohydrates",
+    "topic": "Lysosomal storage",
+    "difficulty": "Application",
+    "stem": "Failure to degrade glycosaminoglycans in lysosomes causes which disease group?",
+    "options": [
+      "Glycogen storage diseases",
+      "Porphyrias",
+      "Mucopolysaccharidoses",
+      "Hemoglobinopathies"
+    ],
+    "answer": 2,
+    "explanation": "Mucopolysaccharidoses result from lysosomal GAG degradation defects. Glycogen storage diseases affect glycogen, porphyrias affect heme synthesis, and hemoglobinopathies affect hemoglobin.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 32
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "carbohydrates-15",
+    "chapter": "carbohydrates",
+    "topic": "Cartilage mechanics",
+    "difficulty": "Application",
+    "stem": "Which molecular property helps cartilage recover after compression?",
+    "options": [
+      "Irreversible hydrolysis of all GAG chains",
+      "Rehydration of charged glycosaminoglycan-rich matrix",
+      "Complete removal of matrix water",
+      "Conversion of collagen into glycogen"
+    ],
+    "answer": 1,
+    "explanation": "Charged GAGs draw water back into the matrix after compression. Chain destruction or permanent dehydration impairs resilience, and collagen is not converted into glycogen for this function.",
+    "source": {
+      "file": "Carbohydrates chemistry-Class.pdf",
+      "page": 31
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-01",
+    "chapter": "enzymes",
+    "topic": "Enzyme classes",
+    "difficulty": "Recall",
+    "stem": "An enzyme transfers a phosphate group from ATP to glucose. Which traditional EC class describes this reaction?",
+    "options": ["Hydrolase", "Lyase", "Transferase", "Isomerase"],
+    "answer": 2,
+    "explanation": "Kinases transfer phosphate groups and belong to EC2 transferases. Hydrolases cleave using water, lyases catalyse nonhydrolytic cleavage/addition, and isomerases rearrange atoms within a molecule.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-02",
+    "chapter": "enzymes",
+    "topic": "Oxidoreductases",
+    "difficulty": "Recall",
+    "stem": "Which enzyme class includes lactate dehydrogenase?",
+    "options": ["Ligases", "Oxidoreductases", "Hydrolases", "Isomerases"],
+    "answer": 1,
+    "explanation": "Lactate dehydrogenase couples lactate/pyruvate interconversion to NADH/NAD⁺ and catalyses redox chemistry. It does not join molecules using ATP, hydrolyse a bond or merely rearrange a molecule.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-03",
+    "chapter": "enzymes",
+    "topic": "Cofactors",
+    "difficulty": "Recall",
+    "stem": "What is the catalytically complete enzyme containing its required cofactor called?",
+    "options": ["Holoenzyme", "Apoenzyme", "Zymogen", "Substrate"],
+    "answer": 0,
+    "explanation": "Holoenzyme means enzyme plus required cofactor. Apoenzyme is the protein component alone; a zymogen is an inactive precursor, and a substrate is acted upon.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 30
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-04",
+    "chapter": "enzymes",
+    "topic": "Vitamin coenzymes",
+    "difficulty": "Recall",
+    "stem": "Which vitamin provides the precursor for FAD and FMN?",
+    "options": [
+      "Thiamine (B1)",
+      "Niacin (B3)",
+      "Pyridoxine (B6)",
+      "Riboflavin (B2)"
+    ],
+    "answer": 3,
+    "explanation": "Riboflavin yields FAD and FMN. Thiamine yields TPP, niacin yields NAD/NADP, and pyridoxine yields PLP.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 34
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-05",
+    "chapter": "enzymes",
+    "topic": "Lineweaver–Burk plot",
+    "difficulty": "Recall",
+    "stem": "What is the y-intercept of a Lineweaver–Burk plot?",
+    "options": ["−1/Km", "Km", "1/Vmax", "Vmax/Km"],
+    "answer": 2,
+    "explanation": "The equation is 1/v = (Km/Vmax)(1/[S]) + 1/Vmax. −1/Km is the x-intercept, Km is not an intercept, and Vmax/Km is not the slope or y-intercept.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 46
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-06",
+    "chapter": "enzymes",
+    "topic": "Catalysis",
+    "difficulty": "Mechanism",
+    "stem": "How does an enzyme accelerate a reaction without changing its equilibrium?",
+    "options": [
+      "It changes the overall reaction ΔG",
+      "It lowers activation energy",
+      "It converts an endergonic reaction into an exergonic one by itself",
+      "It is consumed to force equilibrium toward product"
+    ],
+    "answer": 1,
+    "explanation": "Enzymes lower the transition-state barrier for forward and reverse reactions. They do not change overall ΔG or the equilibrium constant, supply net energy by themselves, or undergo net consumption.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 14
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-07",
+    "chapter": "enzymes",
+    "topic": "Induced fit",
+    "difficulty": "Mechanism",
+    "stem": "Which observation best supports the induced-fit model?",
+    "options": [
+      "Substrate binding changes active-site conformation",
+      "The enzyme must remain completely rigid",
+      "All substrates fit equally well",
+      "The enzyme is permanently destroyed after binding"
+    ],
+    "answer": 0,
+    "explanation": "Induced fit involves conformational adjustment that favours catalysis. Absolute rigidity describes the simple lock-and-key picture; indiscriminate binding and destruction are not model features.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 25
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-08",
+    "chapter": "enzymes",
+    "topic": "Saturation kinetics",
+    "difficulty": "Mechanism",
+    "stem": "Why does reaction velocity become nearly independent of substrate concentration at very high [S]?",
+    "options": [
+      "The equilibrium constant becomes zero",
+      "All enzyme molecules disappear",
+      "The substrate stops colliding with the enzyme",
+      "Most enzyme active sites are occupied"
+    ],
+    "answer": 3,
+    "explanation": "Saturation limits turnover at a fixed enzyme concentration. The equilibrium constant is not driven to zero; enzyme remains present and collisions continue.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 39
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-09",
+    "chapter": "enzymes",
+    "topic": "Michaelis constant",
+    "difficulty": "Mechanism",
+    "stem": "For a Michaelis–Menten enzyme, what initial velocity is predicted when [S] = Km?",
+    "options": [
+      "The initial substrate has already been exhausted",
+      "Product formation makes the equilibrium constant increase",
+      "Most enzyme active sites are occupied",
+      "The catalytic turnover rate increases without limit"
+    ],
+    "answer": 2,
+    "explanation": "At high substrate, active-site occupancy is near saturation and enzyme turnover limits velocity. Initial-rate analysis avoids substrate depletion; equilibrium is unchanged and turnover does not increase without limit.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 42
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-10",
+    "chapter": "enzymes",
+    "topic": "Enzyme concentration",
+    "difficulty": "Mechanism",
+    "stem": "With saturating substrate, doubling active enzyme concentration does what?",
+    "options": [
+      "Doubles Km while leaving Vmax unchanged",
+      "Doubles Vmax while leaving Km unchanged",
+      "Halves both Vmax and Km",
+      "Changes the reaction equilibrium constant"
+    ],
+    "answer": 1,
+    "explanation": "Vmax is proportional to the amount of active enzyme. Km is not set by enzyme concentration, and catalysts do not change equilibrium.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 37
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-11",
+    "chapter": "enzymes",
+    "topic": "Kinetic calculation",
+    "difficulty": "Application",
+    "stem": "An enzyme has Vmax = 120 units and Km = 3 mM. At [S] = 9 mM, what is v?",
+    "options": ["90 units", "30 units", "60 units", "120 units"],
+    "answer": 0,
+    "explanation": "v = 120 × 9/(3 + 9) = 90. Thirty and sixty use incorrect fractions; 120 is the limiting maximum rather than the value at this finite substrate concentration.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 41
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-12",
+    "chapter": "enzymes",
+    "topic": "Glucose phosphorylation",
+    "difficulty": "Application",
+    "stem": "Which enzyme is better suited to phosphorylating glucose when intracellular glucose is low?",
+    "options": [
+      "Glucokinase",
+      "Both require the same high glucose concentration",
+      "Neither can use glucose",
+      "Hexokinase"
+    ],
+    "answer": 3,
+    "explanation": "Hexokinase has the lower apparent Km and functions effectively at lower glucose concentrations. Glucokinase responds more strongly at higher glucose; the enzymes do not have equal glucose kinetics.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 44
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-13",
+    "chapter": "enzymes",
+    "topic": "pH effects",
+    "difficulty": "Application",
+    "stem": "An enzyme loses activity after the assay pH moves far from its optimum. What is a likely explanation?",
+    "options": [
+      "A necessary fall in the total enzyme concentration",
+      "An obligatory shift in the reaction equilibrium toward substrate",
+      "Altered ionization of catalytic groups and possible structural disruption",
+      "A universal increase in substrate affinity"
+    ],
+    "answer": 2,
+    "explanation": "pH changes protonation and may disturb folding. It need not reduce enzyme quantity, force every equilibrium toward substrate or increase affinity; the effect depends on the reaction and ionizable groups.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 48
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-14",
+    "chapter": "enzymes",
+    "topic": "Hydrolases",
+    "difficulty": "Application",
+    "stem": "A digestive enzyme cleaves a peptide bond by adding water. Which class is it?",
+    "options": ["Transferase", "Hydrolase", "Ligase", "Isomerase"],
+    "answer": 1,
+    "explanation": "Hydrolases use water in bond cleavage. Transferases move groups, ligases join molecules with energy input, and isomerases catalyse intramolecular rearrangements.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "enzymes-15",
+    "chapter": "enzymes",
+    "topic": "Group-transfer coenzymes",
+    "difficulty": "Application",
+    "stem": "An aminotransferase assay loses activity after removal of PLP. Which vitamin-derived coenzyme must be restored?",
+    "options": [
+      "Pyridoxal phosphate from vitamin B6",
+      "FAD from vitamin B2",
+      "NAD⁺ from vitamin B3",
+      "TPP from vitamin B1"
+    ],
+    "answer": 0,
+    "explanation": "PLP supports amino-group transfer. FAD and NAD⁺ chiefly support redox chemistry, while TPP participates in reactions such as oxidative decarboxylation.",
+    "source": {
+      "file": "Enzyme Classification and Kinetics 2026-2027.pdf",
+      "page": 33
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-01",
+    "chapter": "inhibition",
+    "topic": "Competitive kinetics",
+    "difficulty": "Recall",
+    "stem": "What is the classical kinetic effect of a reversible competitive inhibitor?",
+    "options": [
+      "Km is unchanged; Vmax increases",
+      "Apparent Km increases; Vmax is unchanged",
+      "Both Km and Vmax decrease",
+      "Km decreases; Vmax is unchanged"
+    ],
+    "answer": 1,
+    "explanation": "Competition requires more substrate to reach half-maximal velocity, but sufficiently high substrate can still approach the original Vmax. The other patterns do not describe simple competitive inhibition.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-02",
+    "chapter": "inhibition",
+    "topic": "Pure noncompetitive kinetics",
+    "difficulty": "Recall",
+    "stem": "For pure noncompetitive inhibition, which pattern is expected?",
+    "options": [
+      "Vmax decreases; Km is unchanged",
+      "Vmax is unchanged; Km increases",
+      "Both Vmax and Km increase",
+      "Vmax increases; Km decreases"
+    ],
+    "answer": 0,
+    "explanation": "Pure noncompetitive inhibition reduces catalytic capacity without changing Km. Unchanged Vmax with increased Km is competitive; the remaining patterns are not the pure noncompetitive case.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-03",
+    "chapter": "inhibition",
+    "topic": "Mechanism-based inhibition",
+    "difficulty": "Recall",
+    "stem": "Which enzyme is inhibited by allopurinol and its metabolite oxypurinol?",
+    "options": [
+      "HMG-CoA reductase",
+      "Dihydrofolate reductase",
+      "Angiotensin-converting enzyme",
+      "Xanthine oxidase"
+    ],
+    "answer": 3,
+    "explanation": "Xanthine oxidase inhibition lowers urate production. Statins target HMG-CoA reductase, methotrexate targets dihydrofolate reductase, and ACE inhibitors target angiotensin-converting enzyme.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 12
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-04",
+    "chapter": "inhibition",
+    "topic": "Zymogens",
+    "difficulty": "Recall",
+    "stem": "Which inactive precursor is converted to trypsin by proteolysis?",
+    "options": ["Pepsinogen", "Prothrombin", "Trypsinogen", "Plasminogen"],
+    "answer": 2,
+    "explanation": "Trypsinogen is the precursor of trypsin. Pepsinogen yields pepsin, prothrombin yields thrombin, and plasminogen yields plasmin.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 24
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-05",
+    "chapter": "inhibition",
+    "topic": "Covalent regulation",
+    "difficulty": "Recall",
+    "stem": "Which enzyme removes phosphate groups from regulatory proteins?",
+    "options": [
+      "Protein kinase",
+      "Protein phosphatase",
+      "DNA polymerase",
+      "Aminopeptidase"
+    ],
+    "answer": 1,
+    "explanation": "Phosphatases remove phosphate groups. Kinases add phosphate, DNA polymerases synthesize DNA, and aminopeptidases remove N-terminal residues.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 27
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-06",
+    "chapter": "inhibition",
+    "topic": "Competition",
+    "difficulty": "Mechanism",
+    "stem": "Why can sufficiently high substrate overcome simple competitive inhibition?",
+    "options": [
+      "Substrate competes with inhibitor for access to the active site",
+      "Substrate necessarily lowers the inhibitor's binding constant",
+      "Substrate increases the number of enzyme molecules in the assay",
+      "Substrate restores an irreversibly modified active site"
+    ],
+    "answer": 0,
+    "explanation": "Higher substrate favours occupancy of the shared site in simple reversible competition. It need not alter Ki or enzyme amount and cannot generally restore a covalently inactivated active site.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-07",
+    "chapter": "inhibition",
+    "topic": "Mechanism-based inhibition",
+    "difficulty": "Mechanism",
+    "stem": "What distinguishes a mechanism-based inhibitor?",
+    "options": [
+      "It always raises Vmax",
+      "It can never enter the active site",
+      "It acts only by changing gene transcription",
+      "The target enzyme processes it into an inhibitory species"
+    ],
+    "answer": 3,
+    "explanation": "Mechanism-based inhibitors use the target's catalytic chemistry to generate inhibition. They do not characteristically raise Vmax, may enter active sites, and need not alter transcription.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 11
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-08",
+    "chapter": "inhibition",
+    "topic": "Allosteric regulation",
+    "difficulty": "Mechanism",
+    "stem": "Where does an allosteric effector bind?",
+    "options": [
+      "Only at the catalytic active site",
+      "Only on the free substrate molecule",
+      "At a regulatory site distinct from the active site",
+      "Only at a covalent phosphorylation site"
+    ],
+    "answer": 2,
+    "explanation": "Allosteric effectors bind a distinct regulatory site and change conformation. Active-site competition is different, free-substrate binding is not enzyme allostery, and allostery does not require covalent phosphorylation.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 19
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-09",
+    "chapter": "inhibition",
+    "topic": "Feed-forward activation",
+    "difficulty": "Mechanism",
+    "stem": "Fructose 1,6-bisphosphate activates pyruvate kinase. Which regulatory pattern is this?",
+    "options": [
+      "End-product feedback inhibition",
+      "Feed-forward activation",
+      "Proteolytic activation",
+      "Enzyme repression"
+    ],
+    "answer": 1,
+    "explanation": "An upstream intermediate activates a downstream enzyme. Feedback inhibition involves a product suppressing an earlier step; no proteolytic cleavage or reduction in gene expression is implied.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-10",
+    "chapter": "inhibition",
+    "topic": "Feedback inhibition",
+    "difficulty": "Mechanism",
+    "stem": "Rising heme suppresses hepatic ALA synthase activity and expression. What is the pathway-level effect?",
+    "options": [
+      "Reduced unnecessary synthesis of additional heme",
+      "Increased flux through the first committed step",
+      "Activation of every downstream heme-synthesis enzyme",
+      "A requirement for higher heme production to relieve inhibition"
+    ],
+    "answer": 0,
+    "explanation": "End-product feedback suppresses the early regulatory step and limits further heme formation. It does not activate that step, activate every downstream enzyme, or require more product to relieve inhibition.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 23
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-11",
+    "chapter": "inhibition",
+    "topic": "Therapeutic targets",
+    "difficulty": "Application",
+    "stem": "A drug lowers cholesterol by inhibiting HMG-CoA reductase. Which drug class fits?",
+    "options": [
+      "ACE inhibitors",
+      "β-Lactam antibiotics",
+      "Allopurinol",
+      "Statins"
+    ],
+    "answer": 3,
+    "explanation": "Statins inhibit HMG-CoA reductase. ACE inhibitors reduce angiotensin II generation, β-lactams inhibit bacterial cell-wall enzymes, and allopurinol inhibits xanthine oxidase.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-12",
+    "chapter": "inhibition",
+    "topic": "Alternative substrates",
+    "difficulty": "Application",
+    "stem": "Why can ethanol reduce toxic metabolite formation after methanol exposure?",
+    "options": [
+      "It immediately neutralizes all formate already present",
+      "It increases methanol absorption",
+      "It competes for alcohol dehydrogenase",
+      "It converts methanol directly into water"
+    ],
+    "answer": 2,
+    "explanation": "Ethanol competes with methanol metabolism at alcohol dehydrogenase. It does not instantly eliminate formed formate, act by promoting absorption, or directly convert methanol to water.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 14
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-13",
+    "chapter": "inhibition",
+    "topic": "Reciprocal regulation",
+    "difficulty": "Application",
+    "stem": "Insulin promotes dephosphorylation of hepatic glycogen synthase. What is the expected effect?",
+    "options": [
+      "Increased glycogen degradation by glycogen synthase",
+      "Increased glycogen synthesis",
+      "Inactivation of glycogen synthase",
+      "Simultaneous maximal activation of glycogen phosphorylase"
+    ],
+    "answer": 1,
+    "explanation": "Dephosphorylation favours active glycogen synthase and storage. Synthase does not degrade glycogen; insulin-linked dephosphorylation generally inhibits phosphorylase rather than activating both opposing enzymes maximally.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 28
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-14",
+    "chapter": "inhibition",
+    "topic": "Diagnostic enzymes",
+    "difficulty": "Application",
+    "stem": "An elevated ALP is accompanied by an elevated GGT. Which source becomes more likely than isolated bone disease?",
+    "options": [
+      "Hepatobiliary tissue",
+      "Skeletal muscle alone",
+      "Erythrocytes alone",
+      "Brain neurons alone"
+    ],
+    "answer": 0,
+    "explanation": "GGT supports a hepatobiliary origin for increased ALP. Muscle injury is better reflected by CK, hemolysis by markers including LDH, and this combination does not specifically identify neurons.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 32
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "inhibition-15",
+    "chapter": "inhibition",
+    "topic": "Diagnostic enzymes",
+    "difficulty": "Application",
+    "stem": "Severe epigastric pain radiating to the back raises concern for pancreatic injury. Which listed enzyme best supports that assessment?",
+    "options": [
+      "Creatine kinase",
+      "Alkaline phosphatase",
+      "Alanine aminotransferase",
+      "Lipase"
+    ],
+    "answer": 3,
+    "explanation": "Lipase is a pancreatic injury marker in the lecture's diagnostic comparison. CK mainly reflects muscle injury, ALP liver/bile-duct or bone processes, and ALT hepatocellular injury.",
+    "source": {
+      "file": "Enzyme Inhibition  and Regulation 2026-27.pdf",
+      "page": 33
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-01",
+    "chapter": "glycolysis",
+    "topic": "Localization",
+    "difficulty": "Recall",
+    "stem": "Where do the reactions of glycolysis occur?",
+    "options": [
+      "Cytosol",
+      "Mitochondrial matrix",
+      "Lysosomal lumen",
+      "Nucleus exclusively"
+    ],
+    "answer": 0,
+    "explanation": "Glycolysis occurs in the cytosol. The TCA cycle is mainly mitochondrial, lysosomes carry out degradation, and glycolysis is not confined to the nucleus.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 3
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-02",
+    "chapter": "glycolysis",
+    "topic": "Pathway products",
+    "difficulty": "Recall",
+    "stem": "How many pyruvate molecules arise from one glucose in glycolysis?",
+    "options": ["One", "Three", "Six", "Two"],
+    "answer": 3,
+    "explanation": "A six-carbon glucose is split into two three-carbon products. One, three and six pyruvates do not match the pathway's carbon balance.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-03",
+    "chapter": "glycolysis",
+    "topic": "Regulatory enzymes",
+    "difficulty": "Recall",
+    "stem": "Which enzyme catalyses fructose 6-phosphate to fructose 1,6-bisphosphate?",
+    "options": [
+      "Hexokinase",
+      "Pyruvate kinase",
+      "Phosphofructokinase-1",
+      "Enolase"
+    ],
+    "answer": 2,
+    "explanation": "PFK-1 catalyses this committed phosphorylation step. Hexokinase phosphorylates glucose, pyruvate kinase converts PEP to pyruvate, and enolase produces PEP.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-04",
+    "chapter": "glycolysis",
+    "topic": "ATP balance",
+    "difficulty": "Recall",
+    "stem": "What is the net ATP yield when one free glucose is converted to two lactate molecules?",
+    "options": ["Four ATP", "Two ATP", "Six ATP", "Thirty-two ATP"],
+    "answer": 1,
+    "explanation": "Glycolysis invests two and produces four ATP, giving a net two. Four is gross production; six is not the net glycolytic yield, and thirty-two requires broader aerobic oxidation assumptions.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-05",
+    "chapter": "glycolysis",
+    "topic": "Glucose transport",
+    "difficulty": "Recall",
+    "stem": "Which transporter mediates insulin-responsive glucose uptake in skeletal muscle and adipose tissue?",
+    "options": ["GLUT4", "GLUT1", "GLUT3", "SGLT1"],
+    "answer": 0,
+    "explanation": "GLUT4 translocates in response to insulin. GLUT1 supports basal transport, GLUT3 is prominent in neurons, and SGLT1 couples glucose uptake to sodium in epithelia.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-06",
+    "chapter": "glycolysis",
+    "topic": "NAD⁺ regeneration",
+    "difficulty": "Mechanism",
+    "stem": "Why is conversion of pyruvate to lactate useful when oxidative NADH reoxidation is limited?",
+    "options": [
+      "It directly produces two extra ATP",
+      "It makes oxygen from pyruvate",
+      "It converts NAD⁺ into NADH",
+      "It regenerates NAD⁺ needed by glycolysis"
+    ],
+    "answer": 3,
+    "explanation": "Lactate dehydrogenase oxidizes NADH to NAD⁺, sustaining glyceraldehyde 3-phosphate oxidation. It makes no ATP directly, generates no O₂, and the NAD redox direction is opposite to the last option.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-07",
+    "chapter": "glycolysis",
+    "topic": "Substrate-level phosphorylation",
+    "difficulty": "Mechanism",
+    "stem": "What defines substrate-level phosphorylation?",
+    "options": [
+      "ATP production only by proton flow through ATP synthase",
+      "Reduction of oxygen at complex IV",
+      "Direct transfer of a phosphate from a metabolic intermediate to ADP",
+      "Phosphate transfer from ATP to glucose"
+    ],
+    "answer": 2,
+    "explanation": "Substrate-level phosphorylation directly generates ATP from a high-energy intermediate. ATP synthase uses a proton gradient, oxygen reduction is respiratory chemistry, and glucose phosphorylation consumes ATP.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 10
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-08",
+    "chapter": "glycolysis",
+    "topic": "Glucose phosphorylation",
+    "difficulty": "Mechanism",
+    "stem": "Why does conversion of glucose to glucose 6-phosphate help retain glucose inside a cell?",
+    "options": [
+      "Glucose 6-phosphate has higher affinity for outward GLUT transport",
+      "The charged phosphate prevents exit through ordinary glucose transporters",
+      "Phosphorylation irreversibly converts glucose into glycogen",
+      "The phosphate makes glucose 6-phosphate diffuse freely through lipid bilayers"
+    ],
+    "answer": 1,
+    "explanation": "GLUT proteins transport free glucose rather than glucose 6-phosphate, and its charge impedes free bilayer diffusion. Phosphorylation does not itself create glycogen or increase GLUT-mediated export.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-09",
+    "chapter": "glycolysis",
+    "topic": "Energy regulation",
+    "difficulty": "Mechanism",
+    "stem": "High ATP and citrate signal abundant energy. What is their usual effect on PFK-1?",
+    "options": [
+      "Inhibition",
+      "Activation reflecting increased need to make ATP",
+      "No regulatory effect because ATP is only a substrate",
+      "Conversion of the enzyme into its phosphorylated active form"
+    ],
+    "answer": 0,
+    "explanation": "ATP at regulatory sites and citrate inhibit PFK-1 as energy-abundance signals. ATP is both a substrate and regulator; this allosteric response is not explained by obligatory phosphorylation of PFK-1.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 15
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-10",
+    "chapter": "glycolysis",
+    "topic": "Rapoport–Luebering shunt",
+    "difficulty": "Mechanism",
+    "stem": "What is the oxygen-delivery effect of increased erythrocyte 2,3-BPG?",
+    "options": [
+      "Higher hemoglobin oxygen affinity, favouring retention in tissues",
+      "No affinity change because it acts only on pyruvate kinase",
+      "Covalent oxidation of heme iron to increase oxygen binding",
+      "Lower hemoglobin oxygen affinity, favouring oxygen unloading"
+    ],
+    "answer": 3,
+    "explanation": "2,3-BPG binds deoxyhemoglobin and favours oxygen unloading. It does not raise affinity, act only on pyruvate kinase or covalently oxidize heme iron.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 14
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-11",
+    "chapter": "glycolysis",
+    "topic": "Erythrocyte metabolism",
+    "difficulty": "Application",
+    "stem": "Why do mature red cells depend on glycolysis for ATP?",
+    "options": [
+      "They lack glucose transporters",
+      "They perform the TCA cycle in their nucleus",
+      "They lack mitochondria",
+      "They cannot produce lactate"
+    ],
+    "answer": 2,
+    "explanation": "Mature erythrocytes lack mitochondria and cannot make ATP by oxidative phosphorylation. They transport glucose, have no nucleus, and produce lactate.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 14
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-12",
+    "chapter": "glycolysis",
+    "topic": "Pyruvate kinase deficiency",
+    "difficulty": "Application",
+    "stem": "An inherited pyruvate kinase defect causes hemolysis primarily through which mechanism?",
+    "options": [
+      "Excess mitochondrial ATP in red cells",
+      "Insufficient erythrocyte ATP for membrane and ion-pump maintenance",
+      "Failure of red cells to synthesize DNA",
+      "Overproduction of glycogen in mature red cells"
+    ],
+    "answer": 1,
+    "explanation": "Reduced glycolytic ATP impairs red-cell homeostasis and survival. Mature red cells have neither mitochondria nor nuclei, and glycogen excess is not the principal mechanism.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 17
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-13",
+    "chapter": "glycolysis",
+    "topic": "Fluoride inhibition",
+    "difficulty": "Application",
+    "stem": "A blood collection tube contains fluoride to inhibit a glycolytic enzyme. Which enzyme is targeted?",
+    "options": [
+      "Enolase",
+      "Hexokinase",
+      "Lactate dehydrogenase",
+      "Glycogen synthase"
+    ],
+    "answer": 0,
+    "explanation": "Fluoride inhibits enolase. Hexokinase and lactate dehydrogenase catalyse other glycolytic reactions, and glycogen synthase belongs to glycogen synthesis; fluoride alone is not an instantaneous stop to all cellular glycolysis.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 20
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-14",
+    "chapter": "glycolysis",
+    "topic": "Irreversible steps",
+    "difficulty": "Application",
+    "stem": "A pathway map asks for the final major irreversible control step of glycolysis. Which enzyme belongs there?",
+    "options": [
+      "Phosphoglucose isomerase",
+      "Triose phosphate isomerase",
+      "Phosphoglycerate mutase",
+      "Pyruvate kinase"
+    ],
+    "answer": 3,
+    "explanation": "Pyruvate kinase converts PEP to pyruvate with ATP production and is a major irreversible control step. The three isomerase/mutase reactions are usually near equilibrium.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycolysis-15",
+    "chapter": "glycolysis",
+    "topic": "Carbon and energy balance",
+    "difficulty": "Application",
+    "stem": "Two molecules of glucose undergo glycolysis to lactate. What are the net ATP and lactate outputs?",
+    "options": [
+      "Two ATP and two lactate",
+      "Eight ATP and two lactate",
+      "Four ATP and four lactate",
+      "Thirty ATP and four lactate"
+    ],
+    "answer": 2,
+    "explanation": "Each glucose gives net two ATP and two lactate, so doubling gives four of each. The alternatives confuse one-glucose output, gross ATP production or aerobic ATP accounting.",
+    "source": {
+      "file": "Glycolysis.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-01",
+    "chapter": "tca",
+    "topic": "Pyruvate dehydrogenase",
+    "difficulty": "Recall",
+    "stem": "Which product links glycolysis-derived pyruvate to the TCA cycle?",
+    "options": ["Lactose", "Urea", "Glycogen", "Acetyl-CoA"],
+    "answer": 3,
+    "explanation": "PDH converts pyruvate to acetyl-CoA. Lactose is a disaccharide, urea carries nitrogen, and glycogen stores glucose rather than directly entering the cycle.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-02",
+    "chapter": "tca",
+    "topic": "PDH cofactors",
+    "difficulty": "Recall",
+    "stem": "Which combination contains only cofactors of the pyruvate dehydrogenase complex?",
+    "options": [
+      "Biotin, folate, heme, vitamin C and ATP",
+      "PLP, cobalamin, cholesterol, iron and calcium",
+      "TPP, lipoate, CoA, FAD and NAD⁺",
+      "NADPH, bilirubin, glycogen, GTP and oxygen"
+    ],
+    "answer": 2,
+    "explanation": "PDH requires TPP, lipoate, CoA, FAD and NAD⁺. The other combinations include molecules not in its five-cofactor set; biotin is used by carboxylases rather than PDH.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-03",
+    "chapter": "tca",
+    "topic": "Localization",
+    "difficulty": "Recall",
+    "stem": "Most TCA-cycle enzymes are located in which compartment?",
+    "options": ["Cytosol", "Mitochondrial matrix", "Lysosome", "Golgi lumen"],
+    "answer": 1,
+    "explanation": "Most TCA enzymes are in the matrix; succinate dehydrogenase is the inner-membrane exception. Cytosol, lysosome and Golgi lumen are not the cycle's main locations.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-04",
+    "chapter": "tca",
+    "topic": "Carbon entry",
+    "difficulty": "Recall",
+    "stem": "Acetyl-CoA condenses with which four-carbon intermediate to form citrate?",
+    "options": ["Oxaloacetate", "Pyruvate", "Lactate", "Acetoacetate"],
+    "answer": 0,
+    "explanation": "Citrate synthase joins two-carbon acetyl-CoA to four-carbon oxaloacetate. Pyruvate and lactate have three carbons, and acetoacetate is a ketone body rather than the condensing cycle acceptor.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 16
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-05",
+    "chapter": "tca",
+    "topic": "Substrate-level phosphorylation",
+    "difficulty": "Recall",
+    "stem": "Which TCA reaction directly generates GTP or ATP by substrate-level phosphorylation?",
+    "options": [
+      "Citrate to isocitrate",
+      "Succinate to fumarate",
+      "Malate to oxaloacetate",
+      "Succinyl-CoA to succinate"
+    ],
+    "answer": 3,
+    "explanation": "Succinyl-CoA synthetase couples thioester cleavage to nucleotide phosphorylation. Citrate isomerization makes no ATP directly, succinate oxidation reduces FAD, and malate oxidation reduces NAD⁺.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 16
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-06",
+    "chapter": "tca",
+    "topic": "Oxidative decarboxylation",
+    "difficulty": "Mechanism",
+    "stem": "How does PDH change the carbon skeleton of pyruvate?",
+    "options": [
+      "It adds CO₂ to form oxaloacetate",
+      "It joins two pyruvates to make glucose",
+      "It removes one carbon as CO₂ and forms a two-carbon acetyl group",
+      "It reduces pyruvate to lactate without carbon loss"
+    ],
+    "answer": 2,
+    "explanation": "PDH converts three-carbon pyruvate to two-carbon acetyl-CoA plus CO₂. Pyruvate carboxylase adds CO₂, gluconeogenesis forms glucose via multiple steps, and lactate dehydrogenase preserves three carbons.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-07",
+    "chapter": "tca",
+    "topic": "Reducing equivalents",
+    "difficulty": "Mechanism",
+    "stem": "Per acetyl-CoA oxidized, what reduced-coenzyme yield is produced by one turn of the TCA cycle?",
+    "options": [
+      "One NADH and three FADH₂",
+      "Three NADH and one FADH₂",
+      "Two NADPH and no FADH₂",
+      "Six NADH and two FADH₂"
+    ],
+    "answer": 1,
+    "explanation": "One cycle produces three NADH and one FADH₂. The reversed count and NADPH-only choice are wrong; six NADH and two FADH₂ represent two turns.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 14
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-08",
+    "chapter": "tca",
+    "topic": "Energy regulation",
+    "difficulty": "Mechanism",
+    "stem": "A high mitochondrial NADH/NAD⁺ ratio generally has what effect on TCA oxidative flux?",
+    "options": [
+      "It inhibits key dehydrogenases",
+      "It stimulates oxidation by supplying additional NAD⁺",
+      "It activates all cycle enzymes equally",
+      "It has no effect because NADH is not a product of the cycle"
+    ],
+    "answer": 0,
+    "explanation": "NADH product accumulation and a high NADH/NAD⁺ ratio restrain key dehydrogenases. NADH does not itself supply oxidized NAD⁺, activate every enzyme equally or lie outside TCA redox chemistry.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 18
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-09",
+    "chapter": "tca",
+    "topic": "Calcium signalling",
+    "difficulty": "Mechanism",
+    "stem": "During muscle activity, increased mitochondrial Ca²⁺ can stimulate which TCA regulatory enzyme?",
+    "options": [
+      "UGT1A1",
+      "Glycogen branching enzyme",
+      "Lactase",
+      "Isocitrate dehydrogenase"
+    ],
+    "answer": 3,
+    "explanation": "Ca²⁺ activates mitochondrial isocitrate dehydrogenase and supports increased oxidative metabolism. UGT1A1 conjugates bilirubin, branching enzyme acts on glycogen, and lactase digests lactose.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 18
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-10",
+    "chapter": "tca",
+    "topic": "Amphibolic function",
+    "difficulty": "Mechanism",
+    "stem": "Why is the TCA cycle called amphibolic?",
+    "options": [
+      "It consists exclusively of anabolic reactions",
+      "It consists exclusively of catabolic reactions",
+      "It participates in both fuel oxidation and provision of biosynthetic intermediates",
+      "It directly converts all acetyl-CoA carbon into net glucose"
+    ],
+    "answer": 2,
+    "explanation": "The cycle oxidizes fuel and supplies biosynthetic precursors. Neither exclusively anabolic nor exclusively catabolic describes it, and humans do not obtain net glucose from acetyl-CoA through the cycle.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 17
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-11",
+    "chapter": "tca",
+    "topic": "PDH deficiency",
+    "difficulty": "Application",
+    "stem": "An infant has neurologic dysfunction, high pyruvate and lactate, and impaired conversion of pyruvate to acetyl-CoA. Which defect fits?",
+    "options": [
+      "Ferrochelatase deficiency",
+      "Pyruvate dehydrogenase deficiency",
+      "Glycogen branching enzyme deficiency",
+      "Lactase deficiency"
+    ],
+    "answer": 1,
+    "explanation": "PDH deficiency blocks oxidative pyruvate disposal, favouring lactate and alanine accumulation. Ferrochelatase affects heme, branching enzyme affects glycogen, and lactase affects intestinal lactose digestion.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-12",
+    "chapter": "tca",
+    "topic": "Thiamine deficiency",
+    "difficulty": "Application",
+    "stem": "Thiamine deficiency impairs PDH because which coenzyme becomes deficient?",
+    "options": [
+      "Thiamine pyrophosphate",
+      "Pyridoxal phosphate",
+      "Tetrahydrofolate",
+      "Methylcobalamin"
+    ],
+    "answer": 0,
+    "explanation": "Thiamine supplies TPP for PDH decarboxylation. PLP derives from B6, THF from folate, and methylcobalamin from B12.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-13",
+    "chapter": "tca",
+    "topic": "Related complexes",
+    "difficulty": "Application",
+    "stem": "Which TCA enzyme complex shares PDH's five major cofactors?",
+    "options": [
+      "Citrate synthase",
+      "Fumarase",
+      "Phosphofructokinase-1",
+      "α-Ketoglutarate dehydrogenase"
+    ],
+    "answer": 3,
+    "explanation": "α-Ketoglutarate dehydrogenase is a related oxidative-decarboxylation complex. Citrate synthase and fumarase do not require the five-cofactor set; PFK-1 is a glycolytic kinase.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 7
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-14",
+    "chapter": "tca",
+    "topic": "ATP equivalents",
+    "difficulty": "Application",
+    "stem": "Using 2.5 ATP/NADH and 1.5 ATP/FADH₂, one TCA turn also yielding one GTP gives approximately how many ATP equivalents?",
+    "options": ["12", "2", "10", "30"],
+    "answer": 2,
+    "explanation": "3 × 2.5 + 1 × 1.5 + 1 = 10 ATP equivalents. Twelve uses older integer ratios, two ignores oxidative yield, and thirty approximates much broader glucose oxidation.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 14
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "tca-15",
+    "chapter": "tca",
+    "topic": "Oxygen dependence",
+    "difficulty": "Application",
+    "stem": "Why does TCA activity usually decline when mitochondrial respiration cannot reoxidize NADH?",
+    "options": [
+      "All eight TCA enzymes require O₂ as a direct substrate",
+      "NAD⁺ regeneration is limited, restricting dehydrogenase reactions",
+      "Oxygen provides the two carbons entering as acetyl-CoA",
+      "NADH replaces NAD⁺ in all oxidative reactions"
+    ],
+    "answer": 1,
+    "explanation": "Respiration restores oxidized cofactors needed by TCA dehydrogenases. The cycle is indirectly oxygen-dependent; O₂ is not a substrate for all eight reactions or a carbon source, and NADH cannot substitute for NAD⁺ as the oxidant.",
+    "source": {
+      "file": "TCA.pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-01",
+    "chapter": "etc",
+    "topic": "Localization",
+    "difficulty": "Recall",
+    "stem": "Where are the respiratory-chain complexes located?",
+    "options": [
+      "Outer mitochondrial membrane only",
+      "Cytosol",
+      "Inner mitochondrial membrane",
+      "Nuclear envelope"
+    ],
+    "answer": 2,
+    "explanation": "The inner mitochondrial membrane hosts the respiratory complexes. The outer membrane is more permeable and does not house the chain; cytosol and nuclear envelope are not its mitochondrial location.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 3
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-02",
+    "chapter": "etc",
+    "topic": "Complex I",
+    "difficulty": "Recall",
+    "stem": "Which complex receives electrons directly from NADH?",
+    "options": ["Complex II", "Complex I", "Complex III", "Complex IV"],
+    "answer": 1,
+    "explanation": "Complex I is NADH:ubiquinone oxidoreductase. Complex II receives electrons from succinate through FAD, complex III transfers from QH₂, and complex IV reduces oxygen.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-03",
+    "chapter": "etc",
+    "topic": "Complex II",
+    "difficulty": "Recall",
+    "stem": "Which TCA enzyme is also respiratory complex II?",
+    "options": [
+      "Succinate dehydrogenase",
+      "Citrate synthase",
+      "Fumarase",
+      "Malate dehydrogenase"
+    ],
+    "answer": 0,
+    "explanation": "Succinate dehydrogenase links the TCA cycle and ETC as complex II. The other three are TCA enzymes but not complex II.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-04",
+    "chapter": "etc",
+    "topic": "Mobile carriers",
+    "difficulty": "Recall",
+    "stem": "Which carrier transfers electrons between complex III and complex IV?",
+    "options": ["Coenzyme Q", "NADPH", "Albumin", "Cytochrome c"],
+    "answer": 3,
+    "explanation": "Cytochrome c is the mobile protein carrier from III to IV. Coenzyme Q carries electrons to III, NADPH is not this shuttle, and albumin carries plasma ligands.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-05",
+    "chapter": "etc",
+    "topic": "Terminal acceptor",
+    "difficulty": "Recall",
+    "stem": "What is the final electron acceptor in the mitochondrial respiratory chain?",
+    "options": ["Carbon dioxide", "Glucose", "Oxygen", "Lactate"],
+    "answer": 2,
+    "explanation": "Oxygen is reduced to water at complex IV. CO₂ is an oxidation end product, glucose is an upstream fuel, and lactate is not the respiratory-chain terminal acceptor.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-06",
+    "chapter": "etc",
+    "topic": "Proton pumping",
+    "difficulty": "Mechanism",
+    "stem": "Which complexes pump protons from matrix to intermembrane space?",
+    "options": [
+      "I, II and III",
+      "I, III and IV",
+      "II, III and IV",
+      "I, II, III and IV"
+    ],
+    "answer": 1,
+    "explanation": "Complexes I, III and IV pump protons. Each alternative incorrectly includes complex II, which transfers electrons from succinate without pumping protons.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 10
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-07",
+    "chapter": "etc",
+    "topic": "ATP synthase",
+    "difficulty": "Mechanism",
+    "stem": "What directly powers mitochondrial ATP synthase during ATP production?",
+    "options": [
+      "Proton flow back into the matrix down the electrochemical gradient",
+      "Direct cleavage of glucose within its active site",
+      "Movement of oxygen from the matrix into the cytosol",
+      "Bilirubin conjugation"
+    ],
+    "answer": 0,
+    "explanation": "The proton-motive force drives ATP synthase rotation and catalysis. ATP synthase neither breaks glucose directly nor couples ATP synthesis to oxygen export or bilirubin conjugation.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-08",
+    "chapter": "etc",
+    "topic": "P/O ratios",
+    "difficulty": "Mechanism",
+    "stem": "Why does mitochondrial NADH generally yield more ATP than electrons entering via complex II?",
+    "options": [
+      "NADH contains more carbon atoms than FADH₂",
+      "Complex II pumps twice as many protons as complex I",
+      "Complex II electrons never reach oxygen",
+      "NADH electrons pass through complex I, allowing additional proton pumping"
+    ],
+    "answer": 3,
+    "explanation": "NADH entry includes complex I proton pumping, while complex II entry bypasses it. Carbon count is irrelevant, complex II does not pump protons, and both routes can deliver electrons to oxygen.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 11
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-09",
+    "chapter": "etc",
+    "topic": "Coupling",
+    "difficulty": "Mechanism",
+    "stem": "What couples electron transport to ATP synthesis in the chemiosmotic model?",
+    "options": [
+      "A direct covalent high-energy intermediate linking complex IV to ADP",
+      "ATP hydrolysis by complex II as the main driving force",
+      "An electrochemical proton gradient",
+      "Passive ADP diffusion across the outer membrane alone"
+    ],
+    "answer": 2,
+    "explanation": "The proton-motive force couples electron transport to ATP synthase. A covalent complex-IV–ADP intermediate is not the chemiosmotic mechanism, complex II does not supply the energy by ATP hydrolysis, and ADP diffusion alone cannot power ATP synthesis.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 4
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-10",
+    "chapter": "etc",
+    "topic": "Uncoupling",
+    "difficulty": "Mechanism",
+    "stem": "A protonophore increases inner-membrane proton permeability. What happens to oxidative phosphorylation?",
+    "options": [
+      "ATP yield per oxygen rises because proton return becomes easier",
+      "ATP yield per oxygen consumed falls and energy is released as heat",
+      "The proton gradient increases while ATP synthesis remains unchanged",
+      "ATP synthase becomes independent of the proton gradient"
+    ],
+    "answer": 1,
+    "explanation": "A protonophore dissipates proton-motive force and reduces oxidative ATP yield. Easier uncontrolled proton return is not productive coupling, does not enlarge the gradient, and does not free ATP synthase from its energy requirement.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 17
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-11",
+    "chapter": "etc",
+    "topic": "Complex IV inhibitors",
+    "difficulty": "Application",
+    "stem": "Cyanide toxicity blocks which respiratory enzyme complex?",
+    "options": [
+      "Cytochrome c oxidase (IV)",
+      "Succinate dehydrogenase (II)",
+      "ATP synthase (V) directly",
+      "Pyruvate dehydrogenase"
+    ],
+    "answer": 0,
+    "explanation": "Cyanide inhibits complex IV and prevents normal oxygen reduction. Complex II, ATP synthase and PDH have different functions and are not the principal cyanide target here.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 15
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-12",
+    "chapter": "etc",
+    "topic": "Complex I inhibitors",
+    "difficulty": "Application",
+    "stem": "Rotenone inhibits complex I. Which electron entry route is directly impaired?",
+    "options": [
+      "Succinate through complex II to coenzyme Q",
+      "Cytochrome c to complex IV",
+      "Proton return through ATP synthase directly",
+      "NADH to coenzyme Q"
+    ],
+    "answer": 3,
+    "explanation": "Rotenone blocks electron transfer at complex I. Complex II entry and downstream cytochrome c transfer are not its direct sites; ATP synthase proton transport is a different target.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 15
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-13",
+    "chapter": "etc",
+    "topic": "ATP synthase inhibitors",
+    "difficulty": "Application",
+    "stem": "Oligomycin inhibits which process directly?",
+    "options": [
+      "Oxygen reduction by complex IV",
+      "NADH formation by glycolysis",
+      "Proton passage through the Fo sector of ATP synthase",
+      "Transport of bilirubin by MRP2"
+    ],
+    "answer": 2,
+    "explanation": "Oligomycin blocks ATP synthase's Fo proton channel. It does not directly target complex IV, cytosolic glycolytic NADH formation or bilirubin export.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 16
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-14",
+    "chapter": "etc",
+    "topic": "ATP calculation",
+    "difficulty": "Application",
+    "stem": "Five mitochondrial NADH molecules are oxidized with an assumed P/O ratio of 2.5. Approximately how many ATP result?",
+    "options": ["5", "12.5", "7.5", "15"],
+    "answer": 1,
+    "explanation": "5 × 2.5 = 12.5 ATP equivalents. Five assumes one ATP per NADH, 7.5 uses the approximate FAD-linked ratio, and 15 uses the older value of three.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 11
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "etc-15",
+    "chapter": "etc",
+    "topic": "Heat production",
+    "difficulty": "Application",
+    "stem": "A mitochondrial uncoupler increases oxygen use while lowering ATP production. Where does much of the fuel energy go?",
+    "options": [
+      "Heat",
+      "New glycogen without energy cost",
+      "Additional DNA base pairs directly",
+      "Stored proton gradient of increasing size"
+    ],
+    "answer": 0,
+    "explanation": "Uncoupling dissipates free energy as heat. It does not directly build glycogen or DNA, and it reduces rather than increases the stored proton gradient.",
+    "source": {
+      "file": "Oxidative Phosphorylation and ETC.pdf",
+      "page": 17
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-01",
+    "chapter": "glycogen",
+    "topic": "Definitions",
+    "difficulty": "Recall",
+    "stem": "What is glycogenesis?",
+    "options": [
+      "Breakdown of glycogen",
+      "Synthesis of glycogen",
+      "Formation of ketone bodies",
+      "Breakdown of heme"
+    ],
+    "answer": 1,
+    "explanation": "Glycogenesis builds glycogen. Glycogenolysis breaks it down, ketogenesis forms ketone bodies, and heme degradation is a separate pathway.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-02",
+    "chapter": "glycogen",
+    "topic": "Glycogen structure",
+    "difficulty": "Recall",
+    "stem": "Which linkage is found at glycogen branch points?",
+    "options": ["α(1→6)", "β(1→4)", "α(1→2)", "Peptide linkage"],
+    "answer": 0,
+    "explanation": "Branches contain α(1→6) linkages, while linear segments contain α(1→4). β(1→4) characterizes cellulose, α(1→2) is not the glycogen branch linkage, and peptide bonds join amino acids.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-03",
+    "chapter": "glycogen",
+    "topic": "Activated glucose",
+    "difficulty": "Recall",
+    "stem": "What is the direct glucose donor for glycogen synthase?",
+    "options": [
+      "Free glucose alone",
+      "Lactose",
+      "Fructose 1,6-bisphosphate",
+      "UDP-glucose"
+    ],
+    "answer": 3,
+    "explanation": "Glycogen synthase uses UDP-glucose. Free glucose must first be activated; lactose is a dietary disaccharide and fructose 1,6-bisphosphate is a glycolytic intermediate.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-04",
+    "chapter": "glycogen",
+    "topic": "Glycogen primer",
+    "difficulty": "Recall",
+    "stem": "Which protein initiates the glycogen primer through self-glucosylation?",
+    "options": ["Albumin", "Hemoglobin", "Glycogenin", "Collagen"],
+    "answer": 2,
+    "explanation": "Glycogenin provides the primer for subsequent elongation. Albumin transports plasma ligands, hemoglobin carries oxygen, and collagen is an extracellular structural protein.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 10
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-05",
+    "chapter": "glycogen",
+    "topic": "Glycogen breakdown",
+    "difficulty": "Recall",
+    "stem": "Which enzyme cleaves most α(1→4) glycogen bonds by phosphorolysis?",
+    "options": [
+      "Glycogen synthase",
+      "Glycogen phosphorylase",
+      "Branching enzyme",
+      "Hexokinase"
+    ],
+    "answer": 1,
+    "explanation": "Glycogen phosphorylase releases glucose 1-phosphate from linear chains. Synthase adds glucose, branching enzyme introduces branches, and hexokinase phosphorylates free glucose.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-06",
+    "chapter": "glycogen",
+    "topic": "Liver and muscle",
+    "difficulty": "Mechanism",
+    "stem": "Why can liver glycogen support blood glucose more directly than muscle glycogen?",
+    "options": [
+      "Liver can generate free glucose using glucose 6-phosphatase",
+      "Muscle glycogen contains only nonhydrolysable β linkages",
+      "Muscle has no glycogen phosphorylase",
+      "Liver releases glucose 6-phosphate as the main circulating sugar"
+    ],
+    "answer": 0,
+    "explanation": "Hepatic glucose 6-phosphatase enables free-glucose export. Muscle glycogen is α-linked and has phosphorylase, but skeletal muscle lacks the glucose 6-phosphatase route; circulating glucose is not mainly glucose 6-phosphate.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 4
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-07",
+    "chapter": "glycogen",
+    "topic": "Branching",
+    "difficulty": "Mechanism",
+    "stem": "Why does glycogen branching help rapid mobilization?",
+    "options": [
+      "It creates an independent reducing end at every branch",
+      "It allows phosphorylase to cleave α(1→6) bonds directly",
+      "It removes the need for a glycogen primer",
+      "It creates many nonreducing ends for enzyme action"
+    ],
+    "answer": 3,
+    "explanation": "Branches create many nonreducing ends where enzymes act. They do not create a free reducing end at every branch, change phosphorylase specificity to branch bonds, or remove the need for initiation.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-08",
+    "chapter": "glycogen",
+    "topic": "Debranching",
+    "difficulty": "Mechanism",
+    "stem": "Why is a debranching enzyme required during glycogenolysis?",
+    "options": [
+      "Phosphorylase cleaves only β(1→4) bonds",
+      "Debranching enzyme converts every released residue into UDP-glucose",
+      "Phosphorylase cannot completely remove α(1→6) branch points",
+      "Only branch-point residues can enter glycolysis"
+    ],
+    "answer": 2,
+    "explanation": "Phosphorylase cleaves α(1→4) segments but needs debranching activities to resolve branch limits. It does not cleave β-linked glycogen; debranching does not activate all glucose as UDP-glucose, and linear-chain residues can also fuel glycolysis.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 16
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-09",
+    "chapter": "glycogen",
+    "topic": "Synthase regulation",
+    "difficulty": "Mechanism",
+    "stem": "Which modification usually activates glycogen synthase?",
+    "options": [
+      "Phosphorylation by PKA",
+      "Dephosphorylation",
+      "Proteolytic removal of a zymogen segment",
+      "Phosphorylation by phosphorylase kinase"
+    ],
+    "answer": 1,
+    "explanation": "Dephosphorylation favours active glycogen synthase. PKA-mediated phosphorylation inhibits storage, synthase is not regulated as a proteolytically activated zymogen, and phosphorylase kinase promotes glycogen breakdown through phosphorylase activation.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 12
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-10",
+    "chapter": "glycogen",
+    "topic": "Phosphorylase regulation",
+    "difficulty": "Mechanism",
+    "stem": "Glucagon stimulates hepatic glycogenolysis through which signalling pattern?",
+    "options": [
+      "cAMP-dependent phosphorylation cascade",
+      "Direct addition of glucose to glycogen synthase",
+      "Inhibition of all protein kinases",
+      "Activation of muscle glucagon receptors as the main hepatic mechanism"
+    ],
+    "answer": 0,
+    "explanation": "Hepatic glucagon activates cAMP/PKA and phosphorylase kinase, promoting glycogen phosphorylase activation. It does not stimulate synthase, inhibit all kinases or act through muscle receptors to explain the liver response.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 17
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-11",
+    "chapter": "glycogen",
+    "topic": "Von Gierke disease",
+    "difficulty": "Application",
+    "stem": "Fasting hypoglycemia, hepatomegaly and lactic acidosis suggest glucose 6-phosphatase deficiency. Which disease is this?",
+    "options": [
+      "Pompe disease",
+      "McArdle disease",
+      "Hers disease",
+      "Von Gierke disease"
+    ],
+    "answer": 3,
+    "explanation": "Von Gierke disease is linked to the glucose 6-phosphatase system. Pompe involves lysosomal acid α-glucosidase, McArdle muscle phosphorylase, and Hers liver phosphorylase.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 20
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-12",
+    "chapter": "glycogen",
+    "topic": "Pompe disease",
+    "difficulty": "Application",
+    "stem": "An infant has cardiomyopathy and lysosomal glycogen accumulation. Which enzyme deficiency fits?",
+    "options": [
+      "Muscle glycogen phosphorylase",
+      "Glucose 6-phosphatase",
+      "Lysosomal acid α-glucosidase",
+      "Hepatic glycogen phosphorylase"
+    ],
+    "answer": 2,
+    "explanation": "Pompe disease results from acid α-glucosidase deficiency. Muscle phosphorylase causes McArdle, glucose 6-phosphatase defects cause Von Gierke, and liver phosphorylase causes Hers disease.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 21
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-13",
+    "chapter": "glycogen",
+    "topic": "Cori disease",
+    "difficulty": "Application",
+    "stem": "Abnormal glycogen with short outer chains, hepatomegaly and fasting hypoglycemia suggests deficiency of which enzyme?",
+    "options": [
+      "Glycogenin",
+      "Glycogen debranching enzyme",
+      "Lysosomal acid α-glucosidase",
+      "Hexokinase"
+    ],
+    "answer": 1,
+    "explanation": "Cori disease is due to debranching enzyme deficiency, leaving limit-dextrin-like glycogen. Glycogenin starts synthesis, acid α-glucosidase deficiency causes Pompe disease, and hexokinase does not resolve glycogen branches.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-14",
+    "chapter": "glycogen",
+    "topic": "McArdle disease",
+    "difficulty": "Application",
+    "stem": "Exercise-induced cramps with failure of lactate to rise normally after an ischemic exercise test suggest which defect?",
+    "options": [
+      "Muscle glycogen phosphorylase",
+      "Hepatic glucose 6-phosphatase",
+      "UGT1A1",
+      "ALA dehydratase"
+    ],
+    "answer": 0,
+    "explanation": "McArdle disease impairs muscle glycogen breakdown and lactate response. Hepatic glucose 6-phosphatase affects glucose export, UGT1A1 bilirubin conjugation, and ALA dehydratase heme synthesis.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 23
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "glycogen-15",
+    "chapter": "glycogen",
+    "topic": "Hers disease",
+    "difficulty": "Application",
+    "stem": "A child has hepatomegaly and relatively mild fasting hypoglycemia from liver glycogen phosphorylase deficiency. Which diagnosis fits?",
+    "options": [
+      "McArdle disease",
+      "Pompe disease",
+      "Porphyria cutanea tarda",
+      "Hers disease"
+    ],
+    "answer": 3,
+    "explanation": "Hers disease is hepatic phosphorylase deficiency. McArdle is the muscle isoenzyme defect, Pompe is lysosomal glycogen breakdown failure, and PCT is a heme-synthesis disorder.",
+    "source": {
+      "file": "Glycogen Metabolism.pdf",
+      "page": 24
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-01",
+    "chapter": "lipids",
+    "topic": "Fatty acid classification",
+    "difficulty": "Recall",
+    "stem": "What defines a saturated fatty acid?",
+    "options": [
+      "No carbon–carbon double bonds in the hydrocarbon chain",
+      "At least two double bonds",
+      "Exactly one phosphate group",
+      "A peptide backbone"
+    ],
+    "answer": 0,
+    "explanation": "Saturated fatty acids have no C=C bonds. Two or more double bonds define polyunsaturation, phosphate is a phospholipid feature, and peptide backbones belong to proteins.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-02",
+    "chapter": "lipids",
+    "topic": "Essential fatty acids",
+    "difficulty": "Recall",
+    "stem": "Which pair comprises the principal essential fatty acids in humans?",
+    "options": [
+      "Palmitic acid and stearic acid",
+      "Oleic acid and palmitic acid",
+      "Cholesterol and arachidonic acid",
+      "Linoleic acid and α-linolenic acid"
+    ],
+    "answer": 3,
+    "explanation": "Linoleic (ω-6) and α-linolenic (ω-3) acids must be supplied by diet. Palmitate, stearate and oleate can be synthesized; cholesterol is a sterol, and arachidonate is generally derived from linoleate.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-03",
+    "chapter": "lipids",
+    "topic": "Triacylglycerol structure",
+    "difficulty": "Recall",
+    "stem": "What are the main building blocks of a triacylglycerol?",
+    "options": [
+      "Sphingosine plus one sugar only",
+      "Four fused rings plus iron",
+      "Glycerol esterified to three fatty acids",
+      "Three amino acids and phosphate"
+    ],
+    "answer": 2,
+    "explanation": "Triacylglycerol has a glycerol backbone and three fatty acyl esters. Sphingosine/sugar describes a different lipid family, sterol-like rings are not TAG, and amino acids form peptides.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-04",
+    "chapter": "lipids",
+    "topic": "Sphingolipids",
+    "difficulty": "Recall",
+    "stem": "Which amino alcohol forms the backbone of sphingolipids?",
+    "options": ["Glycerol", "Sphingosine", "Ribose", "Choline alone"],
+    "answer": 1,
+    "explanation": "Sphingolipids contain sphingosine. Glycerol is the backbone of glycerolipids, ribose is a sugar, and choline may be a headgroup but is not the sphingolipid backbone.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 16
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-05",
+    "chapter": "lipids",
+    "topic": "Cholesterol structure",
+    "difficulty": "Recall",
+    "stem": "How many carbon atoms are present in cholesterol?",
+    "options": ["27", "18", "6", "3"],
+    "answer": 0,
+    "explanation": "Cholesterol contains 27 carbons. Eighteen is a common fatty-acid chain length, six describes a hexose, and three describes glycerol.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 26
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-06",
+    "chapter": "lipids",
+    "topic": "Omega numbering",
+    "difficulty": "Mechanism",
+    "stem": "What does the ω-3 designation specify?",
+    "options": [
+      "The first double bond is three carbons from the carboxyl end",
+      "The fatty acid necessarily contains three double bonds",
+      "The chain contains exactly three carbon atoms",
+      "The first double bond is three carbons from the methyl end"
+    ],
+    "answer": 3,
+    "explanation": "Omega numbering locates the first double bond from the methyl end. Carboxyl-based numbering is the Δ system; ω-3 does not specify either three double bonds or a three-carbon chain.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-07",
+    "chapter": "lipids",
+    "topic": "Membrane fluidity",
+    "difficulty": "Mechanism",
+    "stem": "Why do cis double bonds usually reduce close packing of fatty acyl chains?",
+    "options": [
+      "They lengthen the chain by adding carbon atoms",
+      "They favour the same close packing as a saturated chain",
+      "They introduce bends in the hydrocarbon chain",
+      "They require both substituent chains to lie on opposite sides"
+    ],
+    "answer": 2,
+    "explanation": "Cis geometry introduces a kink without adding carbon atoms. It generally packs less tightly than a saturated chain; substituent chains on opposite sides describe trans geometry.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 10
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-08",
+    "chapter": "lipids",
+    "topic": "Lipoprotein organization",
+    "difficulty": "Mechanism",
+    "stem": "Where are most triacylglycerols and cholesteryl esters located in a plasma lipoprotein?",
+    "options": [
+      "Its outer surface in direct contact with plasma water",
+      "Its hydrophobic core",
+      "Only within the apoprotein polypeptide backbone",
+      "As freely dissolved monomers outside the particle"
+    ],
+    "answer": 1,
+    "explanation": "Neutral TAG and cholesteryl esters occupy the hydrophobic core. Surface amphipathic lipids and apoproteins face water; neutral lipids are neither peptide-backbone constituents nor freely soluble plasma monomers.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 23
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-09",
+    "chapter": "lipids",
+    "topic": "Amphipathic lipids",
+    "difficulty": "Mechanism",
+    "stem": "Why do membrane phospholipids form bilayers in water?",
+    "options": [
+      "Their polar heads interact with water while hydrophobic tails associate internally",
+      "Their hydrocarbon tails face water and all polar heads are buried",
+      "All parts of a phospholipid are equally soluble in water",
+      "Each membrane phospholipid must be covalently attached to its neighbours"
+    ],
+    "answer": 0,
+    "explanation": "Amphipathic structure favours hydrated heads and shielded tails. Reversed orientation is unfavourable, solubility is not uniform, and a membrane is not held together by obligatory covalent links between neighbouring phospholipids.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 15
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-10",
+    "chapter": "lipids",
+    "topic": "Pulmonary surfactant",
+    "difficulty": "Mechanism",
+    "stem": "How does surfactant help stabilize alveoli?",
+    "options": [
+      "It increases surface tension to promote collapse",
+      "It converts oxygen into hemoglobin",
+      "It seals alveoli with glycogen",
+      "It reduces surface tension at the air–liquid interface"
+    ],
+    "answer": 3,
+    "explanation": "Surfactant reduces surface tension and collapse tendency. Increasing tension would oppose this; oxygen-to-hemoglobin conversion and glycogen sealing are not surfactant functions.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 18
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-11",
+    "chapter": "lipids",
+    "topic": "Surfactant deficiency",
+    "difficulty": "Application",
+    "stem": "A premature infant has respiratory distress associated with insufficient surfactant. Which lipid is a major surfactant component?",
+    "options": [
+      "Triacylglycerol alone",
+      "Cholesteryl ester alone",
+      "Dipalmitoylphosphatidylcholine",
+      "Cerebroside alone"
+    ],
+    "answer": 2,
+    "explanation": "DPPC is a major pulmonary surfactant phospholipid. TAG, cholesteryl ester and cerebroside are not the principal surface-active component identified in the lecture.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 18
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-12",
+    "chapter": "lipids",
+    "topic": "Lipoprotein transport",
+    "difficulty": "Application",
+    "stem": "Which lipoprotein primarily transports dietary triacylglycerol from the intestine?",
+    "options": [
+      "LDL",
+      "Chylomicrons",
+      "HDL",
+      "Albumin as a lipoprotein particle"
+    ],
+    "answer": 1,
+    "explanation": "Chylomicrons carry intestinal dietary lipid. LDL mainly carries cholesterol, HDL participates in cholesterol transport, and albumin is a plasma protein rather than a lipoprotein particle.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-13",
+    "chapter": "lipids",
+    "topic": "Hepatic lipid export",
+    "difficulty": "Application",
+    "stem": "Which particle is secreted by the liver to transport endogenous triacylglycerol?",
+    "options": ["VLDL", "Chylomicrons", "Free hemoglobin", "Fibrinogen"],
+    "answer": 0,
+    "explanation": "VLDL exports hepatic TAG. Chylomicrons originate in the intestine, hemoglobin carries oxygen, and fibrinogen participates in coagulation.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-14",
+    "chapter": "lipids",
+    "topic": "Cholesterol functions",
+    "difficulty": "Application",
+    "stem": "Which substance can be synthesized from cholesterol?",
+    "options": [
+      "Glycogen directly",
+      "A peptide bond",
+      "An essential fatty acid by introducing ω-3 unsaturation",
+      "A steroid hormone"
+    ],
+    "answer": 3,
+    "explanation": "Cholesterol is a precursor of steroid hormones, bile acids and vitamin D. It is not a direct glycogen or peptide-bond precursor, and humans cannot create essential ω-3 unsaturation by that route.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 27
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "lipids-15",
+    "chapter": "lipids",
+    "topic": "Glycolipid structure",
+    "difficulty": "Application",
+    "stem": "A membrane lipid contains ceramide and an oligosaccharide including sialic acid. Which class fits?",
+    "options": [
+      "Triacylglycerol",
+      "Cholesteryl ester",
+      "Ganglioside",
+      "Phosphatidylcholine"
+    ],
+    "answer": 2,
+    "explanation": "Gangliosides are glycosphingolipids containing sialic acid. TAG stores fatty acids on glycerol, cholesteryl ester stores cholesterol, and phosphatidylcholine is a glycerophospholipid.",
+    "source": {
+      "file": "Lipid chemistry.pdf",
+      "page": 20
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-01",
+    "chapter": "heme",
+    "topic": "Heme structure",
+    "difficulty": "Recall",
+    "stem": "Which ion is inserted into protoporphyrin IX to form heme?",
+    "options": ["Mg²⁺", "Zn²⁺", "Ca²⁺", "Fe²⁺"],
+    "answer": 3,
+    "explanation": "Heme contains ferrous iron coordinated in the porphyrin ring. Magnesium, zinc and calcium do not form the normal heme prosthetic group.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 4
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-02",
+    "chapter": "heme",
+    "topic": "Synthesis sites",
+    "difficulty": "Recall",
+    "stem": "Which two tissues account for major rates of heme synthesis?",
+    "options": [
+      "Articular cartilage and enamel",
+      "Adipose tissue and lens",
+      "Bone marrow and liver",
+      "Epidermis and hair shaft"
+    ],
+    "answer": 2,
+    "explanation": "Erythroid marrow produces heme for hemoglobin and liver for hemoproteins. The other pairs are not the major sites described.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-03",
+    "chapter": "heme",
+    "topic": "Lead toxicity",
+    "difficulty": "Recall",
+    "stem": "Lead inhibits which pair of heme-synthesis enzymes?",
+    "options": [
+      "ALA synthase and biliverdin reductase",
+      "ALA dehydratase and ferrochelatase",
+      "UGT1A1 and MRP2",
+      "Uroporphyrinogen decarboxylase and heme oxygenase"
+    ],
+    "answer": 1,
+    "explanation": "Lead inhibits ALA dehydratase and ferrochelatase. The other pairs mix unrelated steps or bilirubin transport/conjugation functions.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 11
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-04",
+    "chapter": "heme",
+    "topic": "Bilirubin conjugation",
+    "difficulty": "Recall",
+    "stem": "Which enzyme conjugates bilirubin with glucuronic acid?",
+    "options": [
+      "UGT1A1",
+      "Heme oxygenase",
+      "Biliverdin reductase",
+      "Ferrochelatase"
+    ],
+    "answer": 0,
+    "explanation": "UGT1A1 glucuronidates bilirubin. Heme oxygenase forms biliverdin, biliverdin reductase forms bilirubin, and ferrochelatase inserts iron during heme synthesis.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 21
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-05",
+    "chapter": "heme",
+    "topic": "Biliary secretion",
+    "difficulty": "Recall",
+    "stem": "Which transporter secretes conjugated bilirubin into bile canaliculi?",
+    "options": ["GLUT4", "DMT1", "Ferroportin", "MRP2"],
+    "answer": 3,
+    "explanation": "MRP2 mediates ATP-dependent canalicular export. GLUT4 transports glucose, DMT1 handles divalent metal uptake, and ferroportin exports iron.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-06",
+    "chapter": "heme",
+    "topic": "Heme regulation",
+    "difficulty": "Mechanism",
+    "stem": "Heme exerts negative feedback primarily on which hepatic biosynthetic enzyme?",
+    "options": [
+      "Lactate dehydrogenase",
+      "Pyruvate kinase",
+      "ALA synthase",
+      "Glycogen synthase"
+    ],
+    "answer": 2,
+    "explanation": "Heme regulates hepatic ALA synthase and thereby its own synthesis. The other enzymes belong to lactate, glycolytic or glycogen pathways rather than the rate-limiting heme step.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 8
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-07",
+    "chapter": "heme",
+    "topic": "Heme breakdown",
+    "difficulty": "Mechanism",
+    "stem": "Which products are formed when heme oxygenase opens the heme ring?",
+    "options": [
+      "Bilirubin diglucuronide and glucose",
+      "Biliverdin, carbon monoxide and iron",
+      "Urobilin and acetyl-CoA",
+      "Stercobilin and lactate"
+    ],
+    "answer": 1,
+    "explanation": "Heme oxygenase yields biliverdin, CO and iron. Bilirubin conjugation and intestinal pigments arise later; glucose, acetyl-CoA and lactate are not this reaction's product set.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 19
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-08",
+    "chapter": "heme",
+    "topic": "Plasma transport",
+    "difficulty": "Mechanism",
+    "stem": "Why is unconjugated bilirubin carried by albumin in plasma?",
+    "options": [
+      "It is poorly water-soluble",
+      "It is an integral membrane protein",
+      "It is already a freely soluble glucuronide",
+      "Albumin converts it into heme"
+    ],
+    "answer": 0,
+    "explanation": "Albumin solubilizes transport of hydrophobic unconjugated bilirubin. Bilirubin is not a membrane protein, is not yet conjugated, and albumin does not synthesize heme from it.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 20
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-09",
+    "chapter": "heme",
+    "topic": "Solubility",
+    "difficulty": "Mechanism",
+    "stem": "What is the main excretory advantage of bilirubin glucuronidation?",
+    "options": [
+      "Insertion of ferrous iron",
+      "Conversion back to protoporphyrin IX",
+      "Loss of all pigment carbon atoms",
+      "Increased water solubility"
+    ],
+    "answer": 3,
+    "explanation": "Glucuronidation increases water solubility and facilitates biliary elimination. It neither inserts iron nor reverses heme degradation or destroys all bilirubin carbon.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 21
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-10",
+    "chapter": "heme",
+    "topic": "Photosensitivity",
+    "difficulty": "Mechanism",
+    "stem": "Why do accumulated porphyrins cause photosensitive skin injury?",
+    "options": [
+      "All ALA molecules directly absorb visible light equally well",
+      "Porphyrins prevent every skin cell from containing water",
+      "Light-excited porphyrins generate reactive oxygen species",
+      "They directly hydrolyse collagen in darkness only"
+    ],
+    "answer": 2,
+    "explanation": "Cyclic porphyrins can absorb light and produce oxidative injury. ALA is not the photosensitizing ring pigment; universal dehydration and obligatory dark-only collagen hydrolysis are incorrect.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 12
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-11",
+    "chapter": "heme",
+    "topic": "Acute intermittent porphyria",
+    "difficulty": "Application",
+    "stem": "Recurrent neurovisceral attacks with elevated ALA and PBG but no photosensitivity suggest deficiency of which enzyme?",
+    "options": [
+      "Uroporphyrinogen decarboxylase",
+      "Hydroxymethylbilane synthase",
+      "UGT1A1",
+      "Heme oxygenase"
+    ],
+    "answer": 1,
+    "explanation": "Hydroxymethylbilane synthase deficiency causes AIP. Uroporphyrinogen decarboxylase deficiency causes PCT; UGT1A1 and heme oxygenase act in bilirubin metabolism rather than this porphyria.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 11
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-12",
+    "chapter": "heme",
+    "topic": "Porphyria cutanea tarda",
+    "difficulty": "Application",
+    "stem": "Blistering sun-exposed skin with increased urinary uroporphyrins most strongly suggests which disorder?",
+    "options": [
+      "Porphyria cutanea tarda",
+      "Acute intermittent porphyria",
+      "Crigler–Najjar syndrome",
+      "Dubin–Johnson syndrome"
+    ],
+    "answer": 0,
+    "explanation": "PCT features uroporphyrinogen decarboxylase deficiency and cutaneous photosensitivity. AIP is usually nonphotosensitive; Crigler–Najjar and Dubin–Johnson are bilirubin-handling disorders.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 12
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-13",
+    "chapter": "heme",
+    "topic": "Conjugation disorders",
+    "difficulty": "Application",
+    "stem": "Marked unconjugated hyperbilirubinemia due to UGT1A1 deficiency identifies which disorder?",
+    "options": [
+      "Dubin–Johnson syndrome",
+      "Variegate porphyria",
+      "Lead poisoning",
+      "Crigler–Najjar syndrome"
+    ],
+    "answer": 3,
+    "explanation": "Crigler–Najjar results from severe UGT1A1 deficiency. Dubin–Johnson impairs MRP2 export, variegate porphyria involves protoporphyrinogen oxidase, and lead inhibits specific heme-synthesis enzymes.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 21
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-14",
+    "chapter": "heme",
+    "topic": "Transport disorders",
+    "difficulty": "Application",
+    "stem": "A defect in MRP2 causes predominantly conjugated hyperbilirubinemia. Which syndrome fits?",
+    "options": [
+      "Crigler–Najjar syndrome",
+      "Acute intermittent porphyria",
+      "Dubin–Johnson syndrome",
+      "Porphyria cutanea tarda"
+    ],
+    "answer": 2,
+    "explanation": "Dubin–Johnson impairs canalicular transport of conjugated bilirubin. Crigler–Najjar impairs conjugation; AIP and PCT affect heme synthesis.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "heme-15",
+    "chapter": "heme",
+    "topic": "Intestinal pigments",
+    "difficulty": "Application",
+    "stem": "Biliary obstruction produces pale stools mainly because which pigment formation falls?",
+    "options": [
+      "Melanin",
+      "Stercobilin",
+      "Hemoglobin",
+      "Biliverdin retained in bruises"
+    ],
+    "answer": 1,
+    "explanation": "Reduced bilirubin delivery to the intestine reduces stercobilin, the brown fecal pigment. Melanin colours skin, hemoglobin transports oxygen, and bruise biliverdin does not normally determine stool colour.",
+    "source": {
+      "file": "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+      "page": 23
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-01",
+    "chapter": "vitamins",
+    "topic": "Iron storage",
+    "difficulty": "Recall",
+    "stem": "Which protein is a principal intracellular iron store?",
+    "options": ["Transferrin", "Albumin", "Ferritin", "Intrinsic factor"],
+    "answer": 2,
+    "explanation": "Ferritin stores iron intracellularly. Transferrin transports iron in plasma, albumin transports many ligands but is not the principal iron store, and intrinsic factor assists B12 absorption.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 6
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-02",
+    "chapter": "vitamins",
+    "topic": "Iron transport",
+    "difficulty": "Recall",
+    "stem": "Which plasma protein transports iron?",
+    "options": [
+      "Ferritin as the main circulating transporter",
+      "Transferrin",
+      "Hemoglobin as the physiological plasma carrier",
+      "Glycogenin"
+    ],
+    "answer": 1,
+    "explanation": "Transferrin carries plasma iron. Ferritin chiefly reflects stores, hemoglobin normally carries oxygen inside red cells, and glycogenin primes glycogen synthesis.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-03",
+    "chapter": "vitamins",
+    "topic": "Folate identity",
+    "difficulty": "Recall",
+    "stem": "Folate is also known as which vitamin?",
+    "options": ["Vitamin B9", "Vitamin B12", "Vitamin B1", "Vitamin B6"],
+    "answer": 0,
+    "explanation": "Folate is B9. Cobalamin is B12, thiamine B1, and pyridoxine B6.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 13
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-04",
+    "chapter": "vitamins",
+    "topic": "B12 absorption",
+    "difficulty": "Recall",
+    "stem": "Where is the intrinsic factor–B12 complex absorbed?",
+    "options": [
+      "Stomach",
+      "Colon as its main site",
+      "Upper jejunum as its main site",
+      "Ileum"
+    ],
+    "answer": 3,
+    "explanation": "Intrinsic factor-mediated B12 uptake occurs in the terminal ileum. The stomach supplies intrinsic factor, the colon is not the main site, and folate is absorbed mainly proximally.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 22
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-05",
+    "chapter": "vitamins",
+    "topic": "B12 coenzymes",
+    "difficulty": "Recall",
+    "stem": "Which reaction requires methylcobalamin?",
+    "options": [
+      "Pyruvate to lactate",
+      "Glucose to glucose 6-phosphate",
+      "Homocysteine to methionine",
+      "Bilirubin to biliverdin"
+    ],
+    "answer": 2,
+    "explanation": "Methionine synthase uses methylcobalamin. Lactate dehydrogenase uses NADH/NAD⁺, glucose phosphorylation uses ATP, and biliverdin reduction runs toward bilirubin rather than the stated reverse reaction.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 24
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-06",
+    "chapter": "vitamins",
+    "topic": "Iron absorption",
+    "difficulty": "Mechanism",
+    "stem": "Why can vitamin C improve nonheme iron absorption?",
+    "options": [
+      "It oxidizes ferrous iron to less soluble ferric iron in the lumen",
+      "It favours soluble reduced iron",
+      "It lowers nonheme iron uptake by chelating all dietary iron irreversibly",
+      "It replaces the need for intestinal iron transport"
+    ],
+    "answer": 1,
+    "explanation": "Ascorbate promotes iron reduction and solubility, supporting nonheme uptake. The proposed oxidation has the wrong direction, irreversible sequestration is not the enhancing mechanism, and membrane transport is still required.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 4
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-07",
+    "chapter": "vitamins",
+    "topic": "Iron export",
+    "difficulty": "Mechanism",
+    "stem": "Which transporter exports iron from an enterocyte into blood?",
+    "options": ["Ferroportin", "DMT1", "GLUT4", "MRP2"],
+    "answer": 0,
+    "explanation": "Ferroportin mediates cellular iron export. DMT1 takes up divalent iron across the apical membrane, GLUT4 transports glucose, and MRP2 exports conjugated bilirubin into bile.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 5
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-08",
+    "chapter": "vitamins",
+    "topic": "One-carbon metabolism",
+    "difficulty": "Mechanism",
+    "stem": "What is the main biochemical role of tetrahydrofolate derivatives?",
+    "options": [
+      "Transfer of two-carbon acetyl groups as its principal function",
+      "Direct transfer of phosphate from ATP to glucose",
+      "Insertion of ferrous iron into protoporphyrin IX",
+      "Transfer of one-carbon units"
+    ],
+    "answer": 3,
+    "explanation": "THF derivatives carry one-carbon units. CoA commonly carries acetyl groups, kinases transfer phosphate to glucose, and ferrochelatase inserts iron into protoporphyrin.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 15
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-09",
+    "chapter": "vitamins",
+    "topic": "Megaloblastosis",
+    "difficulty": "Mechanism",
+    "stem": "Why does folate deficiency cause megaloblastic anemia?",
+    "options": [
+      "Accelerated DNA replication produces smaller erythrocytes",
+      "Iron cannot bind to protoporphyrin because folate is the iron donor",
+      "Impaired nucleotide synthesis delays nuclear maturation",
+      "The erythrocyte membrane loses its glycogen branches"
+    ],
+    "answer": 2,
+    "explanation": "Folate-dependent nucleotide synthesis supports DNA replication and nuclear maturation. Deficiency slows rather than accelerates replication, folate is not an iron donor, and glycogen branching is not the cause of megaloblastosis.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 18
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-10",
+    "chapter": "vitamins",
+    "topic": "Folate trap",
+    "difficulty": "Mechanism",
+    "stem": "How can vitamin B12 deficiency impair folate-dependent DNA synthesis?",
+    "options": [
+      "Methylmalonyl-CoA directly supplies all missing thymidylate",
+      "Folate accumulates as methyl-THF that cannot efficiently regenerate THF",
+      "Homocysteine is converted to methionine more rapidly",
+      "THF regeneration becomes independent of methionine synthase"
+    ],
+    "answer": 1,
+    "explanation": "B12-dependent methionine synthase normally transfers the methyl group from methyl-THF while making methionine. Deficiency limits this process; methylmalonyl-CoA does not replace nucleotide synthesis, remethylation does not accelerate, and the relevant folate regeneration remains linked to this reaction.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 27
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-11",
+    "chapter": "vitamins",
+    "topic": "Iron deficiency",
+    "difficulty": "Application",
+    "stem": "A patient has microcytic hypochromic anemia, low ferritin and increased TIBC. Which interpretation fits best?",
+    "options": [
+      "Iron deficiency",
+      "Uncomplicated iron overload",
+      "Isolated vitamin B12 deficiency",
+      "Isolated folate deficiency"
+    ],
+    "answer": 0,
+    "explanation": "Low stores and increased iron-binding capacity support iron deficiency. Overload generally raises iron indices; B12 and folate deficiencies classically produce macrocytic megaloblastic patterns.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 11
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-12",
+    "chapter": "vitamins",
+    "topic": "Iron overload",
+    "difficulty": "Application",
+    "stem": "Chronic iron overload can damage the liver, pancreas and heart. Which disorder is classically linked to HFE variants?",
+    "options": [
+      "Pernicious anemia",
+      "Acute intermittent porphyria",
+      "McArdle disease",
+      "Hereditary hemochromatosis"
+    ],
+    "answer": 3,
+    "explanation": "HFE-associated hemochromatosis disrupts iron regulation and causes tissue iron loading. Pernicious anemia affects B12 absorption, AIP heme synthesis, and McArdle muscle glycogen metabolism.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 9
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-13",
+    "chapter": "vitamins",
+    "topic": "Neural tube defects",
+    "difficulty": "Application",
+    "stem": "Why is adequate folate particularly important before conception and in early pregnancy?",
+    "options": [
+      "It guarantees prevention of every congenital anomaly",
+      "It substitutes for every other vitamin",
+      "It supports early neural tube development",
+      "It directly forms fetal hemoglobin iron"
+    ],
+    "answer": 2,
+    "explanation": "Folate supports neural tube closure and lowers neural-tube-defect risk. It does not prevent every anomaly, replace all vitamins or itself provide iron.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 19
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-14",
+    "chapter": "vitamins",
+    "topic": "Pernicious anemia",
+    "difficulty": "Application",
+    "stem": "Autoimmune loss of gastric parietal cells can cause B12 deficiency mainly by reducing what?",
+    "options": [
+      "Ferroportin in every tissue",
+      "Intrinsic factor",
+      "Pancreatic insulin",
+      "Erythrocyte glycogen synthase"
+    ],
+    "answer": 1,
+    "explanation": "Parietal-cell loss reduces intrinsic factor and B12 absorption. Ferroportin, insulin and erythrocyte glycogen synthase are not the specific absorption mechanism.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 26
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  },
+  {
+    "id": "vitamins-15",
+    "chapter": "vitamins",
+    "topic": "Neurologic findings",
+    "difficulty": "Application",
+    "stem": "Macrocytic anemia with paresthesias and impaired vibration sense should raise particular concern for which deficiency?",
+    "options": [
+      "Vitamin B12",
+      "Iron alone",
+      "Folate alone as the classic explanation for the neurologic syndrome",
+      "Vitamin C alone"
+    ],
+    "answer": 0,
+    "explanation": "B12 deficiency can cause both megaloblastic anemia and characteristic neurologic injury. Iron deficiency is usually microcytic, folate deficiency does not usually cause this neurologic syndrome, and vitamin C deficiency causes a different clinical pattern.",
+    "source": {
+      "file": "Iron, Vitamin B12 & Folic acid(1).pdf",
+      "page": 25
+    },
+    "provenance": "Original practice question based on supplied lecture"
+  }
+]

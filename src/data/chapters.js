@@ -1,0 +1,1350 @@
+const slide = (
+  title,
+  bullets,
+  notes,
+  page,
+  visual = "diagram",
+  extra = {},
+) => ({ title, bullets, notes, page, visual, ...extra });
+export const chapters = [
+  {
+    id: "amino",
+    title: "Amino acids & proteins",
+    short: "Amino acids",
+    category: "Molecular foundations",
+    color: "#167b91",
+    file: "Amino acids and proteins.pdf",
+    pages: 32,
+    ref: "Supplied lecture, pp. 2–28. No bibliography is printed in this PDF.",
+    slides: [
+      slide(
+        "One backbone. Different side chains.",
+        [
+          "Amino group + carboxyl group",
+          "The R group determines properties",
+          "Glycine is achiral",
+        ],
+        "The α carbon carries amino, carboxyl, hydrogen and R groups. Glycine has two hydrogens and is achiral. Human ribosomal proteins use L-amino acids. The molecular model is a glycine connectivity schematic, not a measured conformation.",
+        3,
+        "molecule",
+        {
+          model: "glycine",
+          labels: ["α carbon", "Amino group", "Carboxyl group"],
+        },
+      ),
+      slide(
+        "Charge changes with pH.",
+        [
+          "Low pH: net positive",
+          "At pI: zero net charge",
+          "High pH: net negative",
+        ],
+        "Amphoteric amino acids can donate or accept protons. A zwitterion contains positive and negative groups simultaneously. At the isoelectric point the average net charge is zero. Buffering is strongest near a group’s pKa, not necessarily at pI.",
+        7,
+        "charge",
+      ),
+      slide(
+        "Side chains set the chemistry.",
+        [
+          "Nonpolar: hydrophobic",
+          "Polar: hydrogen bonding",
+          "Acidic and basic: ionizable",
+        ],
+        "Nonpolar examples include alanine, valine and leucine. Serine and glutamine are polar uncharged. Aspartate and glutamate are acidic, while lysine and arginine are basic. Histidine ionization depends on its environment. The explorer lists all 20 standard amino acids. Aromatic is a structural category: tyrosine also has a polar hydroxyl group. The nine adult dietary essential amino acids are His, Ile, Leu, Lys, Met, Phe, Thr, Trp and Val (National Academies, Protein and Amino Acids). Essential/nonessential describes dietary requirement, whereas glucogenic/ketogenic describes metabolic fate.",
+        11,
+        "aminoExplorer",
+        {
+          supplemental: [
+            {
+              title: "National Academies: Protein and Amino Acids",
+              url: "https://www.ncbi.nlm.nih.gov/books/NBK234922/",
+            },
+          ],
+          nodes: [
+            "Nonpolar\nVal, Leu, Ile",
+            "Polar\nSer, Thr, Gln",
+            "Acidic\nAsp, Glu",
+            "Basic\nLys, Arg, His",
+          ],
+        },
+      ),
+      slide(
+        "Peptide bonds build the sequence.",
+        [
+          "Covalent backbone",
+          "N terminus to C terminus",
+          "Sequence is primary structure",
+        ],
+        "A peptide bond links the carboxyl carbon of one residue to the amino nitrogen of the next. The lecture illustrates condensation with water loss. In cells, ribosomal peptide synthesis uses activated aminoacyl-tRNAs. Backbone sequence determines the possibilities for folding. A biologically important example is glutathione: a tripeptide of glutamate, cysteine and glycine with a special γ-glutamyl linkage, supporting cellular redox protection (NCI Drug Dictionary).",
+        14,
+        "diagram",
+        {
+          supplemental: [
+            {
+              title: "NCI: Glutathione",
+              url: "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/glutathione",
+            },
+          ],
+          nodes: [
+            "Amino acid 1",
+            "Peptide bond",
+            "Amino acid 2",
+            "Polypeptide",
+          ],
+        },
+      ),
+      slide(
+        "A sequence becomes a structure.",
+        [
+          "Secondary: α helices and β sheets",
+          "Tertiary: one folded chain",
+          "Quaternary: assembled subunits",
+        ],
+        "Backbone hydrogen bonds stabilize α helices and β sheets. Tertiary structure also depends on hydrophobic, ionic and van der Waals interactions, and sometimes disulfide bonds. The model shows human deoxyhemoglobin (RCSB 4HHB), a tetramer with two α and two β chains. Explode the model to distinguish its subunits.",
+        17,
+        "molecule",
+        { model: "protein", labels: ["α chains", "β chains", "Heme groups"] },
+      ),
+      slide(
+        "Folding has clinical consequences.",
+        [
+          "Chaperones support folding",
+          "Misfolding can impair function",
+          "Denaturation disrupts higher structure",
+        ],
+        "The lecture links amyloid-β to Alzheimer pathology, prion protein to Creutzfeldt–Jakob disease, CFTR to cystic fibrosis and α-synuclein to Parkinson pathology. Denaturation typically disrupts noncovalent interactions without hydrolyzing peptide bonds. Disulfide reduction requires appropriate reducing conditions and is not a universal feature of denaturation.",
+        26,
+        "diagram",
+        {
+          nodes: [
+            "Sequence",
+            "Chaperone-assisted folding",
+            "Functional protein",
+            "Misfolding / degradation",
+          ],
+        },
+      ),
+    ],
+  },
+  {
+    id: "carbohydrates",
+    title: "Carbohydrate chemistry",
+    short: "Carbohydrates",
+    category: "Molecular foundations",
+    color: "#36845c",
+    file: "Carbohydrates chemistry-Class.pdf",
+    pages: 37,
+    ref: "Supplied lecture, pp. 2–33. No bibliography is printed in this PDF.",
+    slides: [
+      slide(
+        "Sugars differ in size and chemistry.",
+        [
+          "Aldoses or ketoses",
+          "Mono-, di- and polysaccharides",
+          "Fuel and structural roles",
+        ],
+        "Carbohydrates include polyhydroxy aldehydes and ketones and their derivatives. Glucose and galactose are aldohexoses, fructose a ketohexose and ribose a pentose. Carbohydrates also participate in cell recognition and extracellular matrix structure.",
+        3,
+        "molecule",
+        {
+          model: "glucose",
+          labels: ["Ring oxygen", "Carbon skeleton", "D-glucose schematic"],
+        },
+      ),
+      slide(
+        "A small change makes an isomer.",
+        [
+          "Epimers: one stereocenter",
+          "Anomers: the anomeric carbon",
+          "Enantiomers: mirror images",
+        ],
+        "Glucose and mannose are C2 epimers. Glucose and galactose are C4 epimers. α- and β-D-glucopyranose differ at C1, the anomeric carbon. D/L designation depends on configuration, not on the sign of optical rotation. The control highlights the affected carbon, rather than claiming an atomically optimized conformation.",
+        8,
+        "isomers",
+      ),
+      slide(
+        "The bond determines reducing behavior.",
+        [
+          "Lactose: glucose + galactose",
+          "Maltose: glucose + glucose",
+          "Sucrose: both anomeric centers linked",
+        ],
+        "A free anomeric carbon allows ring opening and reducing behavior. Lactose has a β(1→4) linkage, maltose an α(1→4) linkage and sucrose links glucose C1 to fructose C2. Sucrose is nonreducing. Fructose gives positive reducing-sugar reactions under alkaline assay conditions.",
+        17,
+        "diagram",
+        {
+          nodes: [
+            "Lactose\nReducing",
+            "Maltose\nReducing",
+            "Sucrose\nNonreducing",
+          ],
+          flow: false,
+        },
+      ),
+      slide(
+        "Sugar derivatives have distinct jobs.",
+        [
+          "Amino sugars: structural components",
+          "Sugar acids: charged groups",
+          "Sorbitol: osmotic accumulation",
+        ],
+        "Glucosamine and galactosamine occur in complex carbohydrates. Oxidation produces sugar acids and reduction can produce sugar alcohols. Excess intracellular glucose can enter the polyol pathway. Sorbitol accumulation in susceptible tissues contributes to osmotic injury, including lens damage in diabetes.",
+        15,
+        "diagram",
+        {
+          nodes: ["Glucose", "Aldose reductase", "Sorbitol", "Osmotic stress"],
+        },
+      ),
+      slide(
+        "Polymers store or support.",
+        [
+          "Glycogen: branched glucose store",
+          "GAGs: repeating disaccharides",
+          "Negative charge attracts water",
+        ],
+        "Glycogen is a homopolysaccharide with α(1→4) chains and α(1→6) branches. Glycosaminoglycans are heteropolysaccharides with repeating disaccharide units. Their charge and hydration support lubrication and compression resistance. Polysaccharides have very limited reducing activity per mass, but are not chemically devoid of a reducing end.",
+        22,
+        "molecule",
+        {
+          model: "glycogen",
+          labels: ["Glucose residues", "α(1→4) chain", "α(1→6) branch"],
+        },
+      ),
+      slide(
+        "The extracellular matrix holds water.",
+        [
+          "Proteoglycans: core protein + GAGs",
+          "Hyaluronan is nonsulfated",
+          "Lysosomal defects cause MPS",
+        ],
+        "Hyaluronan is a nonsulfated GAG and is not covalently attached to a core protein, although it can organize large proteoglycan aggregates. Chondroitin sulfate supports cartilage, dermatan sulfate occurs in skin and heparan sulfate in basement membranes. Hurler and Hunter syndromes involve defective lysosomal GAG breakdown.",
+        27,
+        "diagram",
+        {
+          nodes: [
+            "Core protein",
+            "GAG side chains",
+            "Water retention",
+            "Compression resistance",
+          ],
+        },
+      ),
+    ],
+  },
+  {
+    id: "enzymes",
+    title: "Enzyme classification & kinetics",
+    short: "Enzyme kinetics",
+    category: "Catalysis & control",
+    color: "#4064a4",
+    file: "Enzyme Classification and Kinetics 2026-2027.pdf",
+    pages: 52,
+    ref: "Lippincott Illustrated Reviews: Biochemistry, 8th/9th ed., Chapter 5 (lecture p. 52). Modern classification: IUBMB EC 7.",
+    slides: [
+      slide(
+        "Catalysts lower the energy barrier.",
+        [
+          "Activation energy decreases",
+          "Equilibrium remains unchanged",
+          "Active sites stabilize transition states",
+        ],
+        "Enzymes accelerate approach to equilibrium without changing reaction ΔG or the equilibrium constant. Most are proteins, but catalytic RNAs also exist. The curves are conceptual energy profiles with arbitrary units, not measured thermodynamic data.",
+        13,
+        "energy",
+      ),
+      slide(
+        "Classification follows the reaction.",
+        [
+          "EC 1–3: redox, transfer, hydrolysis",
+          "EC 4–6: lyase, isomerase, ligase",
+          "EC 7: translocases",
+        ],
+        "The lecture lists the six traditional classes. Current IUBMB nomenclature adds EC 7, translocases, for catalyzed movement across membranes or separation within membranes. Ligases generally couple bond formation to nucleotide triphosphate cleavage.",
+        6,
+        "diagram",
+        {
+          nodes: [
+            "1 Oxidoreductase",
+            "2 Transferase",
+            "3 Hydrolase",
+            "4 Lyase",
+            "5 Isomerase",
+            "6 Ligase",
+            "7 Translocase",
+          ],
+          flow: false,
+          correction: "Modern update: IUBMB includes EC 7 translocases.",
+        },
+      ),
+      slide(
+        "Specificity begins at the active site.",
+        [
+          "Chemical complementarity",
+          "Stereospecific recognition",
+          "Induced fit supports catalysis",
+        ],
+        "The active site is a three-dimensional pocket with a precisely arranged chemical environment. Induced fit describes conformational changes associated with binding, whereas the lock-and-key model is a simplified rigid analogy. Trypsin preferentially cleaves after Lys or Arg, not His. Peptide context can affect cleavage.",
+        15,
+        "diagram",
+        {
+          nodes: [
+            "Enzyme + substrate",
+            "Recognition",
+            "Induced fit",
+            "Product release",
+          ],
+        },
+      ),
+      slide(
+        "Cofactors complete the catalyst.",
+        [
+          "Apoenzyme + cofactor = holoenzyme",
+          "Organic coenzymes carry groups",
+          "Metal ions support catalysis",
+        ],
+        "Examples: B1 supplies TPP for oxidative decarboxylation, B2 supplies FAD/FMN for redox reactions, B3 supplies NAD/NADP, B6 supplies PLP and biotin supports carboxylation. Metal cofactors include Mg²⁺ in kinase reactions and Zn²⁺ in carbonic anhydrase.",
+        30,
+        "diagram",
+        {
+          nodes: [
+            "B1 → TPP",
+            "B2 → FAD / FMN",
+            "B3 → NAD / NADP",
+            "B6 → PLP",
+            "Biotin → CO₂ transfer",
+          ],
+          flow: false,
+        },
+      ),
+      slide(
+        "Saturation limits reaction velocity.",
+        [
+          "v = Vmax[S] / (Km + [S])",
+          "At [S] = Km: v = ½Vmax",
+          "More enzyme increases Vmax",
+        ],
+        "This model assumes initial-rate conditions for a simple Michaelis–Menten enzyme. At low substrate concentration, velocity rises approximately proportionally to substrate. At high substrate, most active sites are occupied and velocity approaches Vmax. Km is a kinetic parameter and only approximates a binding affinity under particular assumptions.",
+        38,
+        "kinetics",
+      ),
+      slide(
+        "Kinetic parameters answer different questions.",
+        [
+          "Vmax: catalytic capacity",
+          "Km: substrate at half-maximal rate",
+          "Low Km can suggest higher apparent affinity",
+        ],
+        "Vmax depends on total enzyme concentration. Km is independent of enzyme concentration in the simple model. Hexokinase generally has a lower Km for glucose than glucokinase. Glucokinase shows sigmoidal glucose kinetics, so a simple Michaelis–Menten curve is an approximation and S0.5 may be more appropriate.",
+        42,
+        "kinetics",
+      ),
+      slide(
+        "Reciprocal plots reveal intercepts.",
+        ["y intercept = 1/Vmax", "x intercept = −1/Km", "Slope = Km/Vmax"],
+        "The Lineweaver–Burk equation is 1/v = (Km/Vmax)(1/[S]) + 1/Vmax. It is useful for teaching patterns but amplifies error at low substrate. Modern parameter estimation generally uses nonlinear regression of untransformed rates.",
+        46,
+        "kinetics",
+        { reciprocal: true },
+      ),
+      slide(
+        "Conditions change enzyme activity.",
+        [
+          "Temperature affects structure and rate",
+          "pH affects ionizable groups",
+          "Products and regulators alter flux",
+        ],
+        "Rates may rise with temperature before structural instability dominates. pH optima differ among enzymes because catalytic and binding groups require suitable protonation. A single 37 °C optimum is not universal. Product accumulation can slow reversible reactions and alter pathway behavior.",
+        47,
+        "diagram",
+        {
+          nodes: [
+            "Temperature",
+            "pH",
+            "Enzyme amount",
+            "Substrate",
+            "Products / effectors",
+          ],
+          flow: false,
+        },
+      ),
+    ],
+  },
+  {
+    id: "inhibition",
+    title: "Enzyme inhibition & regulation",
+    short: "Enzyme regulation",
+    category: "Catalysis & control",
+    color: "#8a579a",
+    file: "Enzyme Inhibition  and Regulation 2026-27.pdf",
+    pages: 35,
+    ref: "Lippincott Illustrated Reviews: Biochemistry, 8th/9th ed., Chapter 5 (lecture p. 35).",
+    slides: [
+      slide(
+        "Competitive inhibition raises apparent Km.",
+        [
+          "Active-site competition",
+          "Vmax remains unchanged",
+          "More substrate can overcome inhibition",
+        ],
+        "For simple reversible competitive inhibition, apparent Km increases by α = 1 + [I]/Ki while Vmax is unchanged. The control uses dimensionless teaching values. Examples in the lecture include malonate competing with succinate and statins inhibiting HMG-CoA reductase.",
+        5,
+        "kinetics",
+        { inhibition: "Competitive" },
+      ),
+      slide(
+        "Pure noncompetitive inhibition lowers Vmax.",
+        [
+          "Equal binding to E and ES",
+          "Km remains unchanged",
+          "Substrate cannot restore Vmax",
+        ],
+        "Pure noncompetitive inhibition is a special case of mixed inhibition with equal inhibitor affinity for free enzyme and enzyme–substrate complex. General mixed inhibition changes both apparent Km and Vmax. The lecture’s unchanged-Km rule applies only to the pure case.",
+        8,
+        "kinetics",
+        {
+          inhibition: "Noncompetitive",
+          correction:
+            "Unchanged Km describes pure noncompetitive inhibition, not all mixed inhibition.",
+        },
+      ),
+      slide(
+        "Mechanism-based inhibition needs activation.",
+        [
+          "Enzyme activates the inhibitor",
+          "Activated product inhibits enzyme",
+          "Recovery depends on the mechanism",
+        ],
+        "Mechanism-based inhibition depends on catalytic processing of the inhibitor. Classic irreversible examples require replacement or repair of the affected enzyme. Allopurinol is converted to oxypurinol, which tightly binds reduced xanthine oxidoreductase and reduces urate production. Oxidation of this complex can permit dissociation and enzyme reactivation, so new enzyme synthesis is not universally required (JBC 2023, doi:10.1016/j.jbc.2023.105189).",
+        11,
+        "diagram",
+        {
+          nodes: [
+            "Enzyme + inhibitor",
+            "Catalytic activation",
+            "Inhibitory species",
+            "Inhibited enzyme",
+          ],
+        },
+      ),
+      slide(
+        "Allostery changes the response.",
+        [
+          "Regulators bind distinct sites",
+          "Activity can rise or fall",
+          "Cooperativity can produce sigmoid curves",
+        ],
+        "Allostery and cooperativity are related but distinct. Heterotropic effectors differ chemically from the substrate, while substrate cooperativity reflects communication among binding events. Positive and negative effectors are not automatically positive and negative substrate cooperativity. Sigmoidal enzymes are not described by the simple Michaelis–Menten model.",
+        19,
+        "kinetics",
+        { allosteric: true },
+      ),
+      slide(
+        "Pathways coordinate their own flux.",
+        [
+          "Feedback: product inhibits an early step",
+          "Feed-forward: an early metabolite activates later",
+          "Compartmentation separates pathways",
+        ],
+        "Heme feeds back on hepatic ALA synthase. Fructose-1,6-bisphosphate activates pyruvate kinase. Fatty acid synthesis occurs mainly in the cytosol, whereas β-oxidation occurs mainly in mitochondria. These controls reduce inappropriate simultaneous pathway activity.",
+        22,
+        "diagram",
+        {
+          nodes: [
+            "Early substrate",
+            "Regulatory enzyme",
+            "Intermediates",
+            "Final product",
+          ],
+          feedback: true,
+        },
+      ),
+      slide(
+        "Regulation operates on different timescales.",
+        [
+          "Proteolysis activates zymogens",
+          "Phosphorylation is reversible",
+          "Gene expression changes enzyme abundance",
+        ],
+        "Trypsinogen activation is proteolytic and irreversible for that molecule. Kinases transfer phosphate groups and phosphatases remove them. Phosphorylation can activate one enzyme and inhibit another. Induction or repression changes enzyme synthesis more slowly than direct allosteric regulation.",
+        24,
+        "diagram",
+        {
+          nodes: [
+            "Proteolysis\nSeconds–minutes",
+            "Covalent modification\nSeconds–minutes",
+            "Gene expression\nHours and beyond",
+          ],
+          flow: false,
+        },
+      ),
+      slide(
+        "Plasma enzymes provide tissue clues.",
+        [
+          "ALT / AST: hepatocellular injury",
+          "ALP + GGT: hepatobiliary context",
+          "Lipase: pancreatic injury",
+        ],
+        "These are interpretive patterns, not diagnoses on their own. ALP can rise from liver or bone and GGT can support a hepatic origin. CK reflects muscle injury. LDH is relatively nonspecific. Clinical history, assay-specific reference ranges and other investigations are required.",
+        31,
+        "diagram",
+        {
+          nodes: [
+            "Liver\nALT / AST",
+            "Bile ducts / bone\nALP",
+            "Pancreas\nLipase",
+            "Muscle\nCK",
+          ],
+          flow: false,
+        },
+      ),
+    ],
+  },
+  {
+    id: "glycolysis",
+    title: "Glycolysis",
+    short: "Glycolysis",
+    category: "Energy metabolism",
+    color: "#b66a2f",
+    file: "Glycolysis.pdf",
+    pages: 21,
+    ref: "Supplied lecture, pp. 2–20. No bibliography is printed in this PDF. Supplement: NCBI Bookshelf, Metabolic Energy.",
+    slides: [
+      slide(
+        "Glucose enters through different transporters.",
+        [
+          "GLUT: facilitated diffusion",
+          "SGLT: sodium-coupled transport",
+          "GLUT4 responds to insulin",
+        ],
+        "GLUT1 supports basal uptake, GLUT3 supports neuronal uptake and GLUT4 is insulin responsive in skeletal muscle and adipose tissue. The lecture’s GLUT2 pancreatic β-cell framing is a classic model; human β cells substantially express GLUT1 and GLUT3, so it should not be generalized uncritically. SGLT1 participates in intestinal absorption and SGLT2 in renal reabsorption.",
+        4,
+        "diagram",
+        {
+          nodes: [
+            "Intestinal lumen\nSGLT1",
+            "Blood glucose",
+            "Muscle / adipose\nGLUT4",
+            "Basal / neuronal\nGLUT1 / GLUT3",
+          ],
+        },
+      ),
+      slide(
+        "Ten reactions. Two phases.",
+        [
+          "Cytosolic pathway",
+          "Investment consumes 2 ATP",
+          "Payoff produces 4 ATP",
+        ],
+        "One glucose forms two pyruvate through ten reactions. ATP is consumed by hexokinase/glucokinase and PFK-1. Aldolase cleaves fructose-1,6-bisphosphate into two trioses; triose phosphate isomerase allows both to proceed. ATP forms at phosphoglycerate kinase and pyruvate kinase steps.",
+        7,
+        "pathway",
+        { path: "glycolysis" },
+      ),
+      slide(
+        "Three steps control glycolytic flux.",
+        [
+          "Hexokinase / glucokinase",
+          "Phosphofructokinase-1",
+          "Pyruvate kinase",
+        ],
+        "These reactions are effectively irreversible under cellular conditions. PFK-1 is stimulated by AMP and fructose-2,6-bisphosphate and inhibited by ATP and citrate. Pyruvate kinase is activated by fructose-1,6-bisphosphate and inhibited by ATP and alanine. Hepatic hormonal regulation includes reversible phosphorylation.",
+        8,
+        "pathway",
+        { path: "glycolysis", control: true },
+      ),
+      slide(
+        "The net yield is 2 ATP.",
+        [
+          "2 ATP net per glucose",
+          "2 NADH per glucose",
+          "2 pyruvate per glucose",
+        ],
+        "The complete glycolytic pathway produces four ATP and consumes two. Its two NADH carry reducing equivalents that can support mitochondrial ATP production under aerobic conditions. The resulting ATP yield depends on the shuttle used. Do not count oxidative phosphorylation ATP as direct glycolytic ATP.",
+        10,
+        "balance",
+        {
+          values: [
+            ["ATP spent", -2],
+            ["ATP formed", 4],
+            ["Net ATP", 2],
+          ],
+        },
+      ),
+      slide(
+        "Lactate formation regenerates NAD⁺.",
+        [
+          "Pyruvate + NADH becomes lactate",
+          "NAD⁺ keeps glycolysis running",
+          "No extra ATP at the LDH step",
+        ],
+        "Lactate dehydrogenase reoxidizes NADH, maintaining cytosolic NAD⁺ for glyceraldehyde-3-phosphate dehydrogenase. Glycolysis itself does not directly require oxygen. Mature red cells have no mitochondria and depend on glycolytic ATP. Lactate production also occurs when oxygen is present.",
+        12,
+        "diagram",
+        {
+          nodes: [
+            "Glucose",
+            "2 pyruvate + 2 ATP",
+            "LDH + NADH",
+            "2 lactate + NAD⁺",
+          ],
+        },
+      ),
+      slide(
+        "Red cells depend on glycolytic ATP.",
+        [
+          "ATP maintains ion pumps",
+          "2,3-BPG reduces Hb oxygen affinity",
+          "Pyruvate kinase deficiency causes hemolysis",
+        ],
+        "The Rapoport–Luebering shunt forms 2,3-BPG while bypassing an ATP-generating step. Elevated 2,3-BPG promotes oxygen unloading. Pyruvate kinase deficiency decreases red-cell ATP and leads to membrane changes and hemolysis. These are mechanism summaries, not patient-specific management guidance.",
+        14,
+        "diagram",
+        {
+          nodes: [
+            "Low pyruvate kinase",
+            "Low ATP",
+            "Membrane dysfunction",
+            "Splenic hemolysis",
+          ],
+        },
+      ),
+      slide(
+        "Inhibitors expose the pathway mechanism.",
+        [
+          "Fluoride inhibits enolase",
+          "Arsenate bypasses an ATP-forming step",
+          "Arsenite affects lipoate-dependent enzymes",
+        ],
+        "Arsenate can substitute for inorganic phosphate in the GAPDH reaction, producing an unstable arsenate ester and bypassing phosphoglycerate kinase ATP production. Arsenite instead inhibits enzymes requiring reduced lipoamide, including PDH. Fluoride inhibits enolase and has been used in glucose specimen preservation.",
+        16,
+        "pathway",
+        { path: "glycolysis" },
+      ),
+    ],
+  },
+  {
+    id: "tca",
+    title: "Pyruvate oxidation & TCA cycle",
+    short: "TCA cycle",
+    category: "Energy metabolism",
+    color: "#568139",
+    file: "TCA.pdf",
+    pages: 21,
+    ref: "Supplied lecture, pp. 2–20. No bibliography is printed in this PDF. Supplement: NCBI Bookshelf, Metabolic Energy.",
+    slides: [
+      slide(
+        "PDH connects glycolysis to the cycle.",
+        [
+          "Pyruvate becomes acetyl-CoA",
+          "CO₂ and NADH are formed",
+          "Irreversible oxidative decarboxylation",
+        ],
+        "The pyruvate dehydrogenase complex acts in the mitochondrial matrix. One pyruvate plus CoA and NAD⁺ forms acetyl-CoA, CO₂ and NADH. E1, E2 and E3 cooperate. Humans cannot convert the acetyl carbons of acetyl-CoA into net glucose through this route.",
+        3,
+        "diagram",
+        {
+          nodes: [
+            "Pyruvate\n3 carbons",
+            "PDH complex",
+            "Acetyl-CoA\n2 carbons",
+            "CO₂ + NADH",
+          ],
+        },
+      ),
+      slide(
+        "Five cofactors support the PDH complex.",
+        [
+          "TPP and lipoamide",
+          "CoA, FAD and NAD⁺",
+          "Thiamine deficiency impairs oxidation",
+        ],
+        "E1 uses thiamine pyrophosphate, E2 uses lipoamide and CoA, and E3 uses FAD and NAD⁺. α-Ketoglutarate dehydrogenase and branched-chain α-ketoacid dehydrogenase use analogous cofactor sets. PDH deficiency can cause lactic acidosis and neurologic dysfunction.",
+        5,
+        "diagram",
+        {
+          nodes: ["TPP\nB1", "Lipoamide", "CoA\nB5", "FAD\nB2", "NAD⁺\nB3"],
+          flow: false,
+        },
+      ),
+      slide(
+        "The cycle regenerates oxaloacetate.",
+        [
+          "Acetyl-CoA joins oxaloacetate",
+          "Two carbons leave as CO₂",
+          "Oxaloacetate is regenerated",
+        ],
+        "Most reactions occur in the mitochondrial matrix. Succinate dehydrogenase is embedded in the inner membrane as complex II. The first cycle’s emitted CO₂ need not correspond to the incoming acetyl carbons. Oxygen is required indirectly to reoxidize reduced coenzymes through the respiratory chain.",
+        13,
+        "cycle",
+      ),
+      slide(
+        "Each turn captures reducing equivalents.",
+        ["3 NADH", "1 FADH₂", "1 GTP and 2 CO₂"],
+        "These are yields per acetyl-CoA, not per glucose. With approximate P/O ratios of 2.5 per NADH and 1.5 per FADH₂, one turn corresponds to about 10 ATP equivalents. Complete glucose oxidation is commonly approximately 30–32 ATP depending on shuttle and assumptions.",
+        14,
+        "cycle",
+        { yield: true },
+      ),
+      slide(
+        "Energy demand regulates the cycle.",
+        [
+          "ATP and NADH signal abundance",
+          "ADP stimulates isocitrate dehydrogenase",
+          "Ca²⁺ links activity to contraction",
+        ],
+        "Key regulated steps include citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase. High ATP or NADH tends to reduce oxidative flux. Calcium activates selected matrix dehydrogenases in appropriate tissues. Regulation also depends on substrate availability and product accumulation.",
+        18,
+        "cycle",
+        { control: true },
+      ),
+      slide(
+        "The cycle also supplies biosynthesis.",
+        [
+          "Citrate supports lipid synthesis",
+          "α-Ketoglutarate supports amino acids",
+          "Anaplerosis replenishes intermediates",
+        ],
+        "The TCA cycle is amphibolic: it participates in breakdown and biosynthesis. Oxaloacetate supports aspartate formation and gluconeogenic routes, while succinyl-CoA supports heme synthesis. Pyruvate carboxylase uses biotin and ATP to replenish oxaloacetate, preventing depletion of the cycle pool.",
+        17,
+        "diagram",
+        {
+          nodes: [
+            "TCA intermediates",
+            "Amino acids",
+            "Heme",
+            "Lipids",
+            "Glucose precursors",
+          ],
+          flow: false,
+        },
+      ),
+    ],
+  },
+  {
+    id: "etc",
+    title: "Electron transport & ATP synthesis",
+    short: "ETC & ATP",
+    category: "Energy metabolism",
+    color: "#3f6fa5",
+    file: "Oxidative Phosphorylation and ETC.pdf",
+    pages: 19,
+    ref: "Lippincott Illustrated Reviews: Biochemistry, 9th ed., Chapter 5, pp. 85–94 (as printed on lecture p. 19; bibliographic details require instructor confirmation).",
+    slides: [
+      slide(
+        "Electron transfer powers proton pumping.",
+        [
+          "Inner mitochondrial membrane",
+          "Complexes I, III and IV pump H⁺",
+          "O₂ is the terminal electron acceptor",
+        ],
+        "NADH donates electrons at complex I, while succinate-derived electrons enter via complex II. Coenzyme Q transfers electrons to complex III and cytochrome c transfers them to complex IV. Complex IV reduces oxygen to water. Complex II does not pump protons. The 3D view is an educational membrane schematic.",
+        3,
+        "molecule",
+        {
+          model: "etc",
+          labels: ["Intermembrane space", "Inner membrane", "Matrix"],
+        },
+      ),
+      slide(
+        "Two entry points converge on Q.",
+        [
+          "NADH enters through complex I",
+          "Succinate enters through complex II",
+          "Q and cytochrome c are mobile carriers",
+        ],
+        "Complex I contains FMN and iron–sulfur centers. Complex II contains FAD and iron–sulfur centers. Complex III is the cytochrome bc1 complex and IV is cytochrome c oxidase. FADH₂ is used as a shorthand for FAD-linked electron entry, not a freely diffusible mitochondrial carrier.",
+        8,
+        "pathway",
+        { path: "etc" },
+      ),
+      slide(
+        "The proton gradient stores energy.",
+        [
+          "Charge difference + pH difference",
+          "H⁺ returns through ATP synthase",
+          "Rotation couples ADP + Pi to ATP",
+        ],
+        "Chemiosmotic coupling converts the electrochemical proton gradient into ATP. Fo lies in the membrane and F1 projects into the matrix. The rotor is shown schematically, not as a reconstruction of a particular atomic structure. Proton and ATP numbers in the animation are illustrative, not a measured stoichiometry.",
+        10,
+        "molecule",
+        {
+          model: "etc",
+          labels: ["H⁺ gradient", "Fo rotor", "F1 catalytic head"],
+        },
+      ),
+      slide(
+        "ATP yields are approximate.",
+        [
+          "NADH: about 2.5 ATP",
+          "FAD-linked entry: about 1.5 ATP",
+          "Shuttles change total glucose yield",
+        ],
+        "Common teaching estimates account for electron-driven proton pumping and the proton cost of ATP synthesis and transport. They replace older textbook values of 3 and 2. Actual coupling varies with membrane leak, transport and experimental context. The chart shows conventional estimates, not experimental measurements.",
+        11,
+        "balance",
+        {
+          values: [
+            ["NADH", 2.5],
+            ["FAD-linked", 1.5],
+          ],
+        },
+      ),
+      slide(
+        "Inhibitors stop the chain at specific sites.",
+        [
+          "Rotenone: complex I",
+          "Antimycin A: complex III",
+          "Cyanide: complex IV",
+        ],
+        "Electron transport inhibition lowers proton pumping and oxidative ATP synthesis. Oligomycin blocks the Fo proton channel of ATP synthase, tending to slow electron flow by increasing backpressure from the gradient. The simulator is qualitative and does not predict toxin doses or treatment.",
+        15,
+        "pathway",
+        { path: "etc", poison: true },
+      ),
+      slide(
+        "Uncoupling separates oxidation from ATP.",
+        [
+          "Protons bypass ATP synthase",
+          "Oxidative ATP yield decreases",
+          "Energy dissipates as heat",
+        ],
+        "An uncoupler dissipates the proton motive force, reducing ATP synthesis while electron transport may continue or increase if substrate and oxygen are available. DNP is a chemical uncoupler; UCP1 mediates physiological thermogenesis in brown fat. Do not infer that all cellular ATP falls to zero because substrate-level phosphorylation can continue.",
+        17,
+        "molecule",
+        {
+          model: "etc",
+          uncoupled: true,
+          labels: ["Proton leak", "Reduced coupling", "Heat release"],
+        },
+      ),
+    ],
+  },
+  {
+    id: "glycogen",
+    title: "Glycogen metabolism",
+    short: "Glycogen",
+    category: "Storage & structure",
+    color: "#a87532",
+    file: "Glycogen Metabolism.pdf",
+    pages: 25,
+    ref: "Lippincott Illustrated Reviews: Biochemistry, 9th ed., Chapter 11, pp. 145–156 (lecture p. 25).",
+    slides: [
+      slide(
+        "Branching makes a rapidly available store.",
+        ["α(1→4) chains", "α(1→6) branch points", "Many nonreducing ends"],
+        "Glycogen contains a glycogenin core and branching glucose chains. Numerous nonreducing ends allow concurrent synthesis or breakdown. The 3D arrangement is schematic and its residue count and branching geometry do not reproduce an exact biological glycogen particle.",
+        5,
+        "molecule",
+        { model: "glycogen", labels: ["Core", "Linear chain", "Branch point"] },
+      ),
+      slide(
+        "Liver and muscle have different goals.",
+        [
+          "Liver supports blood glucose",
+          "Muscle fuels its own contraction",
+          "Muscle lacks glucose-6-phosphatase",
+        ],
+        "Liver can dephosphorylate glucose-6-phosphate and export glucose. Skeletal muscle uses glucose-6-phosphate locally, mainly for glycolysis. Muscle contains a larger total glycogen pool due to its mass, despite a lower concentration than liver.",
+        4,
+        "diagram",
+        {
+          nodes: [
+            "Liver glycogen",
+            "Blood glucose",
+            "Muscle glycogen",
+            "Local ATP",
+          ],
+          flow: false,
+        },
+      ),
+      slide(
+        "UDP-glucose supplies the growing chain.",
+        [
+          "Glycogenin provides the primer",
+          "Glycogen synthase forms α(1→4)",
+          "Branching enzyme forms α(1→6)",
+        ],
+        "Glucose-6-phosphate becomes glucose-1-phosphate through phosphoglucomutase. UDP-glucose pyrophosphorylase activates glucose using UTP. Glycogen synthase extends an existing primer and cannot initiate a chain de novo. Branching enzyme transfers a segment to create an α(1→6) linkage.",
+        8,
+        "pathway",
+        { path: "glycogenesis" },
+      ),
+      slide(
+        "Breakdown requires two enzyme activities.",
+        [
+          "Phosphorylase releases glucose-1-P",
+          "Debranching resolves branch points",
+          "Phosphoglucomutase forms glucose-6-P",
+        ],
+        "Glycogen phosphorylase cleaves α(1→4) bonds by phosphorolysis and requires PLP. Debranching enzyme has transferase and α(1→6)-glucosidase activities. Most residues yield glucose-1-phosphate, whereas the branch-point residue yields free glucose.",
+        13,
+        "pathway",
+        { path: "glycogenolysis" },
+      ),
+      slide(
+        "Hormones coordinate storage and release.",
+        [
+          "Insulin favors synthesis",
+          "Glucagon promotes liver breakdown",
+          "Epinephrine acts in liver and muscle",
+        ],
+        "Insulin favors dephosphorylation, activating glycogen synthase and inhibiting phosphorylase. Glucagon in liver and epinephrine in liver/muscle promote cAMP signaling and phosphorylation favoring breakdown. Muscle responds to AMP and calcium during contraction and does not rely on a direct glucagon response.",
+        11,
+        "hormone",
+      ),
+      slide(
+        "The missing enzyme predicts the phenotype.",
+        [
+          "Von Gierke: glucose-6-phosphatase",
+          "Pompe: lysosomal acid α-glucosidase",
+          "McArdle: muscle phosphorylase",
+        ],
+        "Von Gierke disease produces severe fasting hypoglycemia and hepatomegaly. Pompe disease is lysosomal and can cause cardiomyopathy. Cori disease involves debranching enzyme with abnormal glycogen structure. McArdle disease causes exercise intolerance and poor lactate rise. Hers disease involves liver phosphorylase and usually milder fasting hypoglycemia.",
+        19,
+        "diseases",
+      ),
+    ],
+  },
+  {
+    id: "lipids",
+    title: "Lipid chemistry",
+    short: "Lipids",
+    category: "Storage & structure",
+    color: "#328a82",
+    file: "Lipid chemistry.pdf",
+    pages: 27,
+    ref: "Lippincott Illustrated Reviews: Biochemistry, 9th ed., Chapters 15–18, pp. 191–256 (lecture p. 27).",
+    slides: [
+      slide(
+        "Amphipathic lipids organize membranes.",
+        [
+          "Polar heads face water",
+          "Hydrophobic tails face inward",
+          "Bilayers provide compartment boundaries",
+        ],
+        "Phospholipids combine hydrophilic head groups with hydrophobic chains. They self-assemble into bilayers in water. Triacylglycerols instead store fatty acids in a neutral, hydrophobic form. This model is a schematic bilayer, not a simulation of molecular dynamics.",
+        3,
+        "molecule",
+        {
+          model: "bilayer",
+          labels: ["Polar heads", "Hydrophobic tails", "Bilayer"],
+        },
+      ),
+      slide(
+        "Double-bond geometry changes packing.",
+        [
+          "Saturated: no C=C double bond",
+          "Cis: introduces a chain bend",
+          "Trans: more linear packing",
+        ],
+        "Unsaturation and chain length influence melting behavior and membrane fluidity. A cis double bond generally disrupts close packing. Omega numbering begins at the methyl end; delta numbering begins at the carboxyl carbon. The selectable chains are structural schematics.",
+        5,
+        "molecule",
+        {
+          model: "fatty",
+          labels: ["Carboxyl end", "Hydrocarbon chain", "Methyl end"],
+        },
+      ),
+      slide(
+        "Essential fatty acids come from the diet.",
+        [
+          "Linoleic acid: omega-6",
+          "α-Linolenic acid: omega-3",
+          "Precursors support signaling lipids",
+        ],
+        "Humans cannot introduce double bonds beyond Δ9 toward the methyl end, so linoleic and α-linolenic acids are essential. Arachidonic acid can be synthesized from linoleic acid and is a precursor of prostaglandins, thromboxanes and leukotrienes. Biological effects differ by mediator and receptor and are not uniformly pro- or anti-inflammatory.",
+        9,
+        "diagram",
+        {
+          nodes: [
+            "Linoleic acid\nω-6",
+            "Arachidonic acid",
+            "Prostaglandins / TX",
+            "Leukotrienes",
+          ],
+        },
+      ),
+      slide(
+        "Different lipid classes perform different jobs.",
+        [
+          "TAG: energy storage",
+          "Phospholipids: membrane structure",
+          "Glycolipids: recognition and neural tissue",
+        ],
+        "TAG contains glycerol esterified to three fatty acids. Glycerophospholipids use a glycerol backbone, while sphingomyelin uses a sphingosine backbone. Ceramide contains sphingosine plus one fatty acid. Glycosphingolipids add carbohydrate groups and have roles in membranes and recognition.",
+        13,
+        "diagram",
+        {
+          nodes: [
+            "Triacylglycerol",
+            "Glycerophospholipid",
+            "Sphingomyelin",
+            "Glycosphingolipid",
+          ],
+          flow: false,
+        },
+      ),
+      slide(
+        "Surfactant reduces alveolar surface tension.",
+        [
+          "DPPC is a major component",
+          "Type II pneumocytes secrete surfactant",
+          "Deficiency predisposes to alveolar collapse",
+        ],
+        "Dipalmitoylphosphatidylcholine is a major lipid component of pulmonary surfactant. Surfactant reduces surface tension and helps stabilize alveoli, especially at low lung volumes. Prematurity can cause surfactant deficiency and neonatal respiratory distress.",
+        18,
+        "diagram",
+        {
+          nodes: [
+            "Type II pneumocyte",
+            "Surfactant / DPPC",
+            "Lower surface tension",
+            "Alveolar stability",
+          ],
+        },
+      ),
+      slide(
+        "Lipoproteins transport hydrophobic cargo.",
+        [
+          "Surface: phospholipids + apoproteins",
+          "Core: TAG + cholesteryl esters",
+          "Particle classes differ in composition",
+        ],
+        "Chylomicrons transport dietary lipids, VLDL transports hepatic TAG, LDL delivers cholesterol and HDL participates in cholesterol transport. Simple good/bad labels obscure their biology. LDL cholesterol and cardiovascular risk require clinical context and should not be inferred solely from a generic normal-range table.",
+        22,
+        "molecule",
+        {
+          model: "lipoprotein",
+          labels: ["Surface monolayer", "Hydrophobic core", "Apoproteins"],
+        },
+      ),
+      slide(
+        "Cholesterol supports structure and synthesis.",
+        [
+          "Membrane constituent",
+          "Steroid hormone precursor",
+          "Bile acid and vitamin D precursor",
+        ],
+        "Cholesterol is a 27-carbon sterol with four fused rings. It is present in animal tissues and the body synthesizes a substantial proportion. It influences membrane properties and supports steroid hormone, bile acid and vitamin D synthesis.",
+        25,
+        "diagram",
+        {
+          nodes: [
+            "Cholesterol",
+            "Cell membranes",
+            "Steroid hormones",
+            "Bile acids",
+            "Vitamin D",
+          ],
+          flow: false,
+        },
+      ),
+    ],
+  },
+  {
+    id: "heme",
+    title: "Heme synthesis & degradation",
+    short: "Heme metabolism",
+    category: "Blood biochemistry",
+    color: "#a34d4c",
+    file: "Heme  Metabolism (Synthesis and Degradation) 2026-27.pdf",
+    pages: 27,
+    ref: "Lippincott Illustrated Reviews: Biochemistry, 8th/9th ed., Chapter 21; Marks: A Clinical Approach, Chapter 44 (lecture p. 27).",
+    slides: [
+      slide(
+        "Heme places iron inside a porphyrin.",
+        [
+          "Protoporphyrin IX + Fe²⁺",
+          "Four pyrrole nitrogen ligands",
+          "Major synthesis: marrow and liver",
+        ],
+        "The model isolates a heme group from human deoxyhemoglobin coordinates, RCSB PDB 4HHB. Protoporphyrin IX binds ferrous iron through four central nitrogens. Protein ligands and oxygen binding involve further coordination that is not fully represented by a heme-only model.",
+        4,
+        "molecule",
+        {
+          model: "heme",
+          labels: ["Porphyrin ring", "Central Fe", "Nitrogen ligands"],
+        },
+      ),
+      slide(
+        "Synthesis crosses two compartments.",
+        [
+          "Step 1: mitochondria",
+          "Steps 2–5: cytosol",
+          "Steps 6–8: mitochondria",
+        ],
+        "ALA synthase combines glycine and succinyl-CoA using PLP. Cytosolic reactions produce ALA-derived porphyrinogen intermediates through coproporphyrinogen III. Final mitochondrial reactions produce protoporphyrin IX and insert Fe²⁺. The lecture compartment diagram omits step 5 from its cytosolic range; this presentation corrects that omission.",
+        5,
+        "pathway",
+        {
+          path: "heme",
+          correction: "Cytosolic heme synthesis includes steps 2–5.",
+        },
+      ),
+      slide(
+        "ALA synthase controls the pathway.",
+        [
+          "First committed, rate-limiting step",
+          "PLP-dependent reaction",
+          "Heme feeds back on hepatic ALAS1",
+        ],
+        "Hepatic ALAS1 is regulated by heme availability. Erythroid ALAS2 also responds to iron through iron regulatory protein mechanisms, so regulation is not identical across tissues. Lead inhibits ALA dehydratase and ferrochelatase, disrupting heme formation.",
+        8,
+        "diagram",
+        {
+          nodes: [
+            "Glycine + succinyl-CoA",
+            "ALA synthase + PLP",
+            "ALA",
+            "Heme",
+          ],
+          feedback: true,
+        },
+      ),
+      slide(
+        "The blocked step shapes the porphyria.",
+        [
+          "AIP: neurovisceral symptoms",
+          "PCT: photosensitive blistering",
+          "Lead: two synthesis enzymes inhibited",
+        ],
+        "Acute intermittent porphyria is associated with hydroxymethylbilane synthase deficiency and accumulation of ALA/PBG, usually without photosensitivity. PCT is associated with reduced uroporphyrinogen decarboxylase activity and photosensitivity. Variegate porphyria involves protoporphyrinogen oxidase and can combine skin and acute manifestations.",
+        9,
+        "diagram",
+        {
+          nodes: [
+            "AIP\nHMBS",
+            "PCT\nUROD",
+            "Variegate\nPPOX",
+            "Lead\nALAD + ferrochelatase",
+          ],
+          flow: false,
+        },
+      ),
+      slide(
+        "Heme breakdown creates bilirubin.",
+        [
+          "Heme oxygenase forms biliverdin",
+          "Biliverdin reductase forms bilirubin",
+          "Iron and globin amino acids are recycled",
+        ],
+        "Macrophages in spleen, liver and marrow degrade senescent erythrocytes. Globin is degraded to reusable amino acids. Heme oxygenase requires O₂ and NADPH and releases CO and iron while opening the ring. Biliverdin reductase uses NADPH to form bilirubin. Bruise color can reflect these pigments, but color alone does not reliably date a bruise.",
+        17,
+        "pathway",
+        { path: "bilirubin" },
+      ),
+      slide(
+        "Conjugation makes bilirubin excretable.",
+        [
+          "Unconjugated bilirubin travels on albumin",
+          "UGT1A1 adds glucuronic acid",
+          "MRP2 exports conjugated bilirubin",
+        ],
+        "Unconjugated bilirubin is poorly water-soluble and albumin-bound, so it is not normally filtered into urine. Hepatic conjugation improves water solubility. MRP2 transports conjugated bilirubin into bile. Intestinal metabolism produces urobilinogen; stercobilin contributes stool color and urobilin urine color.",
+        20,
+        "pathway",
+        { path: "bilirubin" },
+      ),
+      slide(
+        "Jaundice reflects a disrupted step.",
+        [
+          "Hemolysis raises production",
+          "Conjugation defects impair clearance",
+          "Obstruction limits bile flow",
+        ],
+        "Crigler–Najjar syndrome involves UGT1A1 deficiency. Dubin–Johnson syndrome involves MRP2 defects and conjugated hyperbilirubinemia. Biochemical patterns depend on the mechanism. Clinical evaluation integrates bilirubin fractions, liver tests, blood count and imaging where indicated.",
+        24,
+        "diagram",
+        {
+          nodes: [
+            "Excess production",
+            "Impaired conjugation",
+            "Impaired secretion",
+            "Obstruction",
+          ],
+          flow: false,
+        },
+      ),
+    ],
+  },
+  {
+    id: "vitamins",
+    title: "Iron, vitamin B12 & folate",
+    short: "Iron, B12 & folate",
+    category: "Blood biochemistry",
+    color: "#9b7350",
+    file: "Iron, Vitamin B12 & Folic acid(1).pdf",
+    pages: 30,
+    ref: "Lippincott Illustrated Reviews: Biochemistry, 9th ed., Chapters 28–29 (lecture pp. 2, 12, 20). Dietary reference updates: NIH Office of Dietary Supplements.",
+    slides: [
+      slide(
+        "Iron absorption sets the balance.",
+        [
+          "Fe²⁺ enters through DMT1",
+          "Ferroportin exports iron",
+          "Transferrin transports iron in plasma",
+        ],
+        "Nonheme iron is reduced to Fe²⁺ before DMT1-mediated uptake. Export through ferroportin and subsequent oxidation support transferrin binding. Hepcidin reduces iron export by targeting ferroportin. Vitamin C can enhance nonheme absorption, whereas phytates can reduce it. The absorption diagram is a qualitative teaching schematic.",
+        4,
+        "diagram",
+        {
+          nodes: [
+            "Intestinal Fe²⁺",
+            "DMT1 uptake",
+            "Ferroportin export",
+            "Transferrin",
+          ],
+        },
+      ),
+      slide(
+        "Storage and transport answer different questions.",
+        [
+          "Ferritin reflects storage",
+          "Transferrin carries circulating iron",
+          "Deficiency often raises TIBC",
+        ],
+        "Iron deficiency typically lowers ferritin, serum iron and transferrin saturation while raising total iron-binding capacity. Ferritin is also an acute-phase reactant and may rise with inflammation despite restricted iron availability. Hemochromatosis involves iron overload and may damage organs.",
+        6,
+        "labs",
+      ),
+      slide(
+        "Folate carries one-carbon units.",
+        [
+          "THF supports nucleotide synthesis",
+          "Absorption mainly in proximal small bowel",
+          "Deficiency impairs DNA synthesis",
+        ],
+        "Folate coenzymes transfer one-carbon units in purine and thymidylate synthesis and support homocysteine remethylation with B12. Deficiency produces megaloblastic changes. Body stores are limited but not absent, correcting the lecture’s shorthand “no tissue storage.”",
+        13,
+        "diagram",
+        {
+          nodes: [
+            "Dietary folate",
+            "Tetrahydrofolate",
+            "One-carbon transfer",
+            "DNA synthesis",
+          ],
+        },
+      ),
+      slide(
+        "B12 absorption requires a coordinated route.",
+        [
+          "Intrinsic factor: gastric parietal cells",
+          "Uptake: terminal ileum",
+          "Transport: transcobalamin",
+        ],
+        "Dietary B12 is released from food and initially binds haptocorrin. Pancreatic proteases release it for intrinsic-factor binding. The B12–IF complex undergoes receptor-mediated uptake in the terminal ileum. Hepatic stores can delay deficiency for years.",
+        21,
+        "pathway",
+        { path: "b12" },
+      ),
+      slide(
+        "Two reactions distinguish B12 function.",
+        [
+          "Methionine synthase",
+          "Methylmalonyl-CoA mutase",
+          "Deficiency can injure the nervous system",
+        ],
+        "Methylcobalamin supports homocysteine-to-methionine conversion, regenerating THF from methyl-THF. Adenosylcobalamin supports methylmalonyl-CoA-to-succinyl-CoA conversion. B12 deficiency can raise both homocysteine and methylmalonic acid. Folate deficiency typically raises homocysteine without raising methylmalonic acid.",
+        24,
+        "labs",
+        { mode: "B12 deficiency" },
+      ),
+      slide(
+        "The folate trap connects both vitamins.",
+        [
+          "B12 deficiency traps methyl-THF",
+          "DNA synthesis becomes limited",
+          "Folate alone can mask anemia",
+        ],
+        "Failure of B12-dependent methionine synthase limits THF regeneration. Folate supplementation may improve hematologic abnormalities while neurologic injury from B12 deficiency persists. The Schilling test in the lecture is historical rather than a current routine diagnostic standard. B12, methylmalonic acid and clinical context inform contemporary evaluation.",
+        27,
+        "diagram",
+        {
+          nodes: [
+            "Methyl-THF + homocysteine",
+            "B12 / methionine synthase",
+            "THF + methionine",
+            "Nucleotide synthesis",
+          ],
+        },
+      ),
+      slide(
+        "Anemia patterns guide the next question.",
+        [
+          "Iron deficiency: microcytic pattern",
+          "B12 / folate deficiency: megaloblastic",
+          "B12: neurologic findings may coexist",
+        ],
+        "MCV alone is not definitive and mixed deficiencies can obscure the expected pattern. Pernicious anemia is an autoimmune cause of B12 malabsorption related to intrinsic factor, not a synonym for every B12 deficiency. Practice questions test mechanisms and patterns rather than making diagnoses from a single laboratory value.",
+        8,
+        "labs",
+      ),
+      slide(
+        "Dietary requirements depend on context.",
+        [
+          "Iron varies with age and sex",
+          "B12 adult RDA: 2.4 µg/day",
+          "Folate adult RDA: 400 µg DFE/day",
+        ],
+        "NIH adult reference values differ from some numbers printed in the lecture. Iron: 8 mg/day for adult men and adults over 50, 18 mg/day for women 19–50, and 27 mg/day during pregnancy. B12: 2.4 µg/day for adults. Folate: 400 µg dietary folate equivalents/day for adults and 600 µg DFE/day in pregnancy. These are reference intake values, not treatment prescriptions.",
+        3,
+        "diagram",
+        {
+          nodes: ["Iron\n8 / 18 / 27 mg", "B12\n2.4 µg", "Folate\n400 µg DFE"],
+          flow: false,
+          correction:
+            "Dietary reference values updated against NIH ODS; requirements vary by population.",
+        },
+      ),
+    ],
+  },
+];
+export const sources = [
+  {
+    title: "IUBMB enzyme nomenclature: EC 7 translocases",
+    url: "https://iubmb.qmul.ac.uk/enzyme/EC7/",
+  },
+  {
+    title: "IUBMB trypsin nomenclature: preferential cleavage at Arg and Lys",
+    url: "https://iubmb.qmul.ac.uk/enzyme/EC3/4/21/4.html",
+  },
+  {
+    title:
+      "Primary study: human and rat β cells differ in glucose transporter expression",
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC185903/",
+  },
+  {
+    title:
+      "Primary study: allopurinol and oxypurinol inhibition and enzyme reactivation",
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10511816/",
+  },
+  {
+    title: "RCSB PDB 4HHB: human deoxyhemoglobin",
+    url: "https://www.rcsb.org/structure/4HHB",
+  },
+  {
+    title: "NCBI Bookshelf: Metabolic Energy",
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK9903/",
+  },
+  {
+    title: "NCBI Bookshelf: The Mitochondrion",
+    url: "https://www.ncbi.nlm.nih.gov/books/NBK26894/",
+  },
+  {
+    title: "NIH Office of Dietary Supplements: Iron",
+    url: "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+  },
+  {
+    title: "NIH Office of Dietary Supplements: Vitamin B12",
+    url: "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/",
+  },
+  {
+    title: "NIH Office of Dietary Supplements: Folate",
+    url: "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+  },
+  {
+    title: "NICE NG239: contemporary vitamin B12 diagnostic recommendations",
+    url: "https://www.nice.org.uk/guidance/ng239/chapter/recommendations",
+  },
+];

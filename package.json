@@ -1,0 +1,23 @@
+{
+  "name": "biochemistry-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "three": "^0.180.0",
+    "motion": "^12.23.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@fontsource/geist": "^5.2.5"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}

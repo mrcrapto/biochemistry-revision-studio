@@ -1,0 +1,4 @@
+const fs=require('fs');const path=require('path');
+const {createWorker}=require('C:/Users/Faisal/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/tesseract.js');
+(async()=>{const jobs=JSON.parse(fs.readFileSync('audit/ocr-jobs.json'));let n=0;
+await Promise.all(Array.from({length:4},async()=>{let w=await createWorker('eng');while(n<jobs.length){const j=jobs[n++];const {data:{text}}=await w.recognize(j.image);const p=path.join('audit',j.slug,'text.json');const pages=JSON.parse(fs.readFileSync(p));pages[j.page-1].text=text;pages[j.page-1].ocr=true;fs.writeFileSync(p,JSON.stringify(pages,null,2));fs.writeFileSync(path.join('audit',j.slug,'text.txt'),pages.map(x=>`PAGE ${x.page}\n${x.text}`).join('\n\n'));if(n%20===0)console.log(`${n}/${jobs.length}`)}await w.terminate()}));console.log('OCR complete')})();

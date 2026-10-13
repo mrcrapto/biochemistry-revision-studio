@@ -1,0 +1,16 @@
+node_modules/
+dist/
+audit/*/page-*.png
+audit/*/contact-*.jpg
+audit/*/text.json
+audit/*/text.txt
+audit/ocr-jobs.json
+audit/screenshots/
+*.pdf
+.agents/
+.claude/
+.codex/
+tmp/
+*.traineddata
+audit/build.log
+playwright-report/
