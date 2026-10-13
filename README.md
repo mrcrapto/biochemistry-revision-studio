@@ -30,3 +30,11 @@ npm run build
 React + Vite + Three.js + Motion, with locally bundled Geist fonts. The website is static; no database, account, API key, analytics or backend is needed. A GitHub Actions workflow validates, builds and deploys `dist/` to GitHub Pages on pushes to `main`. Relative build paths support project Pages URLs.
 
 Source audit utilities require Python, PyMuPDF and Pillow. Original slide images and coordinates are committed so production builds do not require Python, OCR or downloads. `scripts/ocr.cjs` is a local extraction utility tied to the workspace's bundled Tesseract runtime, not part of the production build.
+
+# New presentation direction: ETC preview
+
+Open `?experience=etc` for an eight-scene, full-screen prototype of the redesigned presentation. It moves from a mitochondrial cutaway to the inner membrane, electron transfer, proton pumping, chemiosmotic coupling, an isolated ATP synthase view, a live inhibitor experiment and an understanding check. This prototype is a review checkpoint; the other ten chapters still use the existing studio presentation.
+
+The models are original schematic teaching geometry. Electron entry, inhibitors, proton return, the rotor and ATP output respond to the controls; there is no decorative continuous camera rotation. Hover or click a complex label for its mechanism. Arrow keys navigate; O opens the overview, F requests fullscreen and B toggles a black screen. Motion pauses automatically for reduced-motion preferences. The original lecture pages remain available in the source dialog.
+
+The experiment is qualitative, not a physiological rate model. It assumes oxygen, substrate and ADP are available and illustrates steady-state tendencies. In particular, succinate bypasses rotenone-sensitive complex I, oligomycin increases backpressure and slows electron flow, and an uncoupler lowers the gradient and oxidative ATP yield while permitting increased electron flow and heat release. Readout bars and particle counts are illustrative. Full-course MCQs remain accessible at `?practice=1`.

@@ -2,6 +2,7 @@ import fs from "node:fs";
 import assert from "node:assert/strict";
 import { chapters } from "../src/data/chapters.js";
 import { parameters, velocity } from "../src/lib/kinetics.js";
+import { respiratoryState } from "../src/components/experience/physiology.js";
 const qs = JSON.parse(
   fs.readFileSync(new URL("../src/data/questions.json", import.meta.url)),
 );
@@ -62,6 +63,19 @@ for (const mode of [
   assert.deepEqual(parameters(3, 10, mode, 0), { km: 3, vmax: 10 });
 assert.ok(velocity(20, 3, 10) > velocity(3, 3, 10));
 const pdb = fs.readFileSync("public/models/4hhb.pdb", "utf8");
+assert.equal(respiratoryState("Rotenone", "NADH").flow, 0);
+assert.ok(respiratoryState("Rotenone", "Succinate").synthesis > 0);
+for (const entry of ["NADH", "Succinate"]) {
+  for (const block of ["Antimycin A", "Cyanide"])
+    assert.equal(respiratoryState(block, entry).flow, 0);
+}
+assert.equal(respiratoryState("Oligomycin").synthesis, 0);
+assert.ok(
+  respiratoryState("Oligomycin").gradient > respiratoryState().gradient,
+);
+assert.ok(respiratoryState("Uncoupler").flow > respiratoryState().flow);
+assert.ok(respiratoryState("Uncoupler").gradient < respiratoryState().gradient);
+assert.ok(respiratoryState("Uncoupler").heat > respiratoryState().heat);
 assert.ok(pdb.includes("4HHB"));
 assert.equal(
   pdb

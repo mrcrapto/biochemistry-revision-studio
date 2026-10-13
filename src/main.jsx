@@ -29,6 +29,9 @@ import "@fontsource/geist/700.css";
 import { chapters, sources } from "./data/chapters";
 import Visual, { MolecularScene } from "./components/Visuals";
 import Quiz from "./components/Quiz";
+const RespirationExperience = React.lazy(
+  () => import("./components/experience/RespirationExperience"),
+);
 import "./styles.css";
 const count = chapters.reduce((a, c) => a + c.slides.length, 0);
 const initial = () => {
@@ -37,7 +40,11 @@ const initial = () => {
   return {
     chapter: Math.max(c, 0),
     slide: Math.max(0, +p[1] || 0),
-    view: c >= 0 ? "deck" : "home",
+    view: new URLSearchParams(location.search).has("practice")
+      ? "quiz"
+      : c >= 0
+        ? "deck"
+        : "home",
   };
 };
 function App() {
@@ -307,12 +314,17 @@ function App() {
                 Understand the science behind the medicine.
               </p>
               <div className="hero-actions">
-                <button className="primary-button" onClick={() => go(0)}>
-                  Enter the studio
+                <button
+                  className="primary-button"
+                  onClick={() => {
+                    location.href = `${location.pathname}?experience=etc`;
+                  }}
+                >
+                  Preview the new presentation
                   <ArrowRight />
                 </button>
-                <button className="text-button" onClick={() => setView("quiz")}>
-                  Test your understanding
+                <button className="text-button" onClick={() => go(0)}>
+                  Browse all 11 chapters
                   <ArrowUpRight />
                 </button>
               </div>
@@ -838,4 +850,26 @@ function App() {
     </div>
   );
 }
-createRoot(document.getElementById("root")).render(<App />);
+createRoot(document.getElementById("root")).render(
+  new URLSearchParams(location.search).get("experience") === "etc" ? (
+    <Suspense
+      fallback={
+        <div
+          style={{
+            minHeight: "100dvh",
+            background: "#05070c",
+            color: "#a3acbd",
+            display: "grid",
+            placeItems: "center",
+          }}
+        >
+          Loading the presentation…
+        </div>
+      }
+    >
+      <RespirationExperience />
+    </Suspense>
+  ) : (
+    <App />
+  ),
+);
