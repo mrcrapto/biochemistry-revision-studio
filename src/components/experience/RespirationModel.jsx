@@ -580,8 +580,8 @@ export default function RespirationModel({
         m.visible = synth && status.synthesis > 0;
         const t = (time * 0.36 * status.synthesis + phase) % 1;
         m.position.set(
-          10.2 + 0.17 * Math.sin(t * Math.PI * 3),
-          2.8 - t * 6,
+          10.9 + 0.17 * Math.sin(t * Math.PI * 3),
+          2.8 - t * 4.2,
           1.15,
         );
       });
