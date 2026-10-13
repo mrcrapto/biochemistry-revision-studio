@@ -2799,9 +2799,9 @@ input[type="range"] {
   width: min(550px, 70vw);
 }
 .pathway-nodes.etc-nodes {
-  grid-template-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
-  grid-template-areas: "entry1 entry1 entry1 . entry2 entry2 entry2" ". . join join join . ." "q link1 iii link2 cyt link3 iv" "gradient gradient gradient gradient gradient gradient gradient" ". . atp atp atp . .";
-  gap: 9px 3px;
+  grid-template-columns: 1fr 1fr 20px 1fr 20px 1fr 1fr;
+  grid-template-areas: "entry1 entry1 link1 q link2 entry2 entry2" ". . . join . . ." ". iii iii iii iii iii ." ". . . link3 . . ." ". cyt cyt cyt cyt cyt ." ". . . tail . . ." ". iv iv iv iv iv ." "gradient gradient gradient gradient gradient gradient gradient" ". . atp atp atp . .";
+  gap: 4px 3px;
 }
 .etc-join,
 .etc-link {
@@ -2817,13 +2817,15 @@ input[type="range"] {
   margin: 7px 0;
 }
 .etc-nodes .path-node {
-  min-height: 65px;
+  min-height: 50px;
   font-size: 10px;
 }
 .presenting .etc-nodes .path-node {
   font-size: clamp(15px, 1.4vw, 25px);
-  min-height: 90px;
+  min-height: 65px;
 }
+.etc-nodes .node-number{display:none}
+.presenting .cycle-map svg{max-height:calc(100dvh - 390px);display:block}
 .presenting .etc-gradient {
   font-size: 14px;
 }

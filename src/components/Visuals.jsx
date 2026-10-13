@@ -394,16 +394,19 @@ function Pathway({ slide, paused }) {
         {slide.path === "etc" && (
           <>
             <span className="etc-join" style={{ gridArea: "join" }}>
-              ↘　↙
+              ↓
             </span>
             <span className="etc-link" style={{ gridArea: "link1" }}>
               →
             </span>
             <span className="etc-link" style={{ gridArea: "link2" }}>
-              →
+              ←
             </span>
             <span className="etc-link" style={{ gridArea: "link3" }}>
-              →
+              ↓
+            </span>
+            <span className="etc-link" style={{ gridArea: "tail" }}>
+              ↓
             </span>
             <span className="etc-gradient" style={{ gridArea: "gradient" }}>
               H⁺ gradient couples electron transfer to ATP synthesis ↓
